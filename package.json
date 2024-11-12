@@ -1,0 +1,217 @@
+{
+  "name": "app-vulnerability-scanner",
+  "version": "0.1.0",
+  "description": "An app to scan for vulnerabilities in websites",
+  "private": true,
+  "license": "MIT",
+  "main": "dist/layers/main/index.js",
+  "author": {
+    "email": "dubuicp123@gmail.com",
+    "name": "ADC300",
+    "url": ""
+  },
+  "engines": {
+    "node": ">=v16.13",
+    "npm": ">=8.1"
+  },
+  "build": {
+    "asar": true,
+    "executableName": "ScanVunerabilities",
+    "productName": "Quét lỗ hổng website",
+    "copyright": "Copyright © 2024 SSIT Joint Stock",
+    "icon": "assets/logo.ico",
+    "appId": "com.scanvunerabilities.app",
+    "asarUnpack": [
+      "node_modules/next",
+      "node_modules/@img",
+      "node_modules/sharp",
+      "**\\*.{node,dll}"
+    ],
+    "directories": {
+      "output": "release"
+    },
+    "extraResources": [
+      "build-resources/**/*",
+      "storages/**/*",
+      "assets/**/*"
+    ],
+    "files": [
+      "layers",
+      "build-resources",
+      "backend",
+      "dist",
+      "frontend",
+      "info",
+      {
+        "from": "frontend/.next/standalone",
+        "to": "frontend/.next/standalone",
+        "filter": [
+          "!**/package.json"
+        ]
+      },
+      {
+        "from": "frontend/.next/static",
+        "to": "frontend/.next/standalone/frontend/.next/static"
+      },
+      {
+        "from": "public",
+        "to": "frontend/.next/standalone/frontend/public"
+      }
+    ],
+    "win": {
+      "target": [
+        "nsis"
+      ]
+    },
+    "nsis": {
+        "oneClick": false,
+        "perMachine": true,
+        "allowElevation": true,
+        "allowToChangeInstallationDirectory": true,
+        "createDesktopShortcut": true,
+        "createStartMenuShortcut": true,
+        "shortcutName": "Quét lỗ hổng website",
+        "installerIcon": "assets/logo.ico",
+        "uninstallerIcon": "assets/logo.ico",
+        "uninstallerSidebar": "assets/logo.ico",
+        "uninstallDisplayName": "Gỡ cài đặt Quét lỗ hổng website",
+        "license": "LICENSE",
+        "artifactName": "${productName} Setup ${version}.${ext}"
+    },
+    "linux": {
+      "target": [
+        "deb"
+      ]
+    },
+    "appImage": {
+      "license": "LICENSE"
+    }
+  },
+  "scripts": {
+    "dev": "npm run prebuild && npm run watch && npm run build:preload:types && set NODE_ENV=development&& npm run build:layers && electron . --dev",
+    "dev:fast": "npm run prebuild && npm run watch && npm run build:preload:types && set NODE_ENV=development&& npm run build:layers && electron . --dev",
+    "dev:webview": "next dev frontend",
+    "build:webview": "next build frontend && node scripts/frontend-build.js",
+    "start": "cd frontend && node .next/standalone/frontend/server.js",
+    "lint": "next lint",
+    "watch": "node scripts/watch.js",
+    "prebuild": "rimraf -rf dist",
+    "build": "npm run build:main && npm run build:preload",
+    "build:frontend": "next build frontend",
+    "build:layers": "tsc -p layers",
+    "build:main": "cd ./layers/main && vite build",
+    "build:preload": "cd ./layers/preload && vite build",
+    "build:preload:types": "dts-cb -i \"layers/tsconfig.json\" -o \"frontend/types/exposedInMainWorld.d.ts\"",
+    "compile": "npm run build:frontend && npm run build:layers && electron-builder build --win",
+    "test:db": "npm run build:layers && node scripts/test/test-db.js",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.9.0",
+    "@maxmind/geoip2-node": "^5.0.0",
+    "@radix-ui/react-accordion": "^1.2.0",
+    "@radix-ui/react-alert-dialog": "^1.1.1",
+    "@radix-ui/react-avatar": "^1.1.0",
+    "@radix-ui/react-collapsible": "^1.1.0",
+    "@radix-ui/react-dialog": "^1.1.2",
+    "@radix-ui/react-dropdown-menu": "^2.1.1",
+    "@radix-ui/react-icons": "^1.3.0",
+    "@radix-ui/react-label": "^2.1.0",
+    "@radix-ui/react-navigation-menu": "^1.2.0",
+    "@radix-ui/react-popover": "^1.1.1",
+    "@radix-ui/react-progress": "^1.1.0",
+    "@radix-ui/react-scroll-area": "^1.1.0",
+    "@radix-ui/react-select": "^2.1.1",
+    "@radix-ui/react-slider": "^1.2.1",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@radix-ui/react-toast": "^1.2.1",
+    "@radix-ui/react-tooltip": "^1.1.2",
+    "@sequelize/core": "^7.0.0-alpha.43",
+    "@sequelize/sqlite3": "^7.0.0-alpha.43",
+    "@tanstack/react-query": "^5.56.2",
+    "app-root-path": "^3.1.0",
+    "axios": "^1.7.7",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "browserless": "^10.6.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "cmdk": "^1.0.0",
+    "connect-flash": "^0.1.1",
+    "cors": "^2.8.5",
+    "countries-list": "^3.1.1",
+    "crawlee": "^3.11.5",
+    "dirbuster": "^0.4.0",
+    "dotenv": "^16.4.5",
+    "electron-log": "^5.2.0",
+    "express": "^4.21.0",
+    "firebase": "^10.12.2",
+    "framer-motion": "^11.3.21",
+    "get-port-please": "^3.1.2",
+    "google-map-react": "^2.2.1",
+    "helmet": "^7.1.0",
+    "highlight.js": "^11.10.0",
+    "html-get": "^2.16.11",
+    "ioredis": "^5.4.1",
+    "ip-location-api": "^2.1.4",
+    "jotai": "^2.9.0",
+    "keytar": "^7.9.0",
+    "lodash": "^4.17.21",
+    "maxmind": "^4.3.22",
+    "moment": "^2.30.1",
+    "mongoose": "^8.7.0",
+    "next": "14.2.10",
+    "next-themes": "^0.3.0",
+    "node-nmap": "^4.0.0",
+    "nprogress": "^0.2.0",
+    "os-dns-native": "^1.2.1",
+    "puppeteer": "^23.4.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "react": "^18",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-dom": "^18",
+    "react-hook-form": "^7.51.4",
+    "react-icons": "^5.2.0",
+    "react-markdown": "^9.0.1",
+    "react-toastify": "^10.0.5",
+    "remark-gfm": "^4.0.0",
+    "sequelize": "^6.37.4",
+    "simple-wappalyzer": "^1.1.68",
+    "socket.io": "^4.8.0",
+    "socket.io-client": "^4.7.5",
+    "sqlite3": "^5.1.7",
+    "ssl-checker": "^2.0.10",
+    "ssl-validator": "^4.1.0",
+    "styled-components": "^6.1.11",
+    "subquest": "^1.5.3",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss-animate": "^1.0.7",
+    "usehooks-ts": "^3.1.0",
+    "uuid": "^10.0.0",
+    "validator": "^13.12.0",
+    "xml2js": "^0.6.2",
+    "zod": "^3.23.7"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/connect-flash": "^0.0.40",
+    "@types/express": "^5.0.0",
+    "@types/node": "^20",
+    "@types/pem": "^1.14.4",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/uuid": "^10.0.0",
+    "dts-for-context-bridge": "0.7.1",
+    "electron": "^27.0.0",
+    "electron-builder": "^25.1.8",
+    "electron-devtools-installer": "3.2.0",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "postcss": "^8",
+    "rimraf": "^6.0.1",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5",
+    "vite": "^5.4.10"
+  }
+}

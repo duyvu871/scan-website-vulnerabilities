@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes infinite-scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-100%); }
+}
+
+.infinite-scroll {
+    animation: infinite-scroll 25s linear infinite;
+}
+
+* {
+    user-select: none;
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* Internet Explorer/Edge */
+}
+
+img {
+    user-drag: none;           /* Chrome, Safari, Opera */
+    -webkit-user-drag: none;   /* Safari và các trình duyệt WebKit khác */
+    pointer-events: none;      /* Vô hiệu hóa các sự kiện tương tác với hình ảnh */
+}

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quét lỗ hổng bảo mật của trang web</title>
+    <style>
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        * {
+            user-select: none;
+            -webkit-user-select: none; /* Safari */
+            -moz-user-select: none;    /* Firefox */
+            -ms-user-select: none;     /* Internet Explorer/Edge */
+        }
+
+        img {
+            user-drag: none;           /* Chrome, Safari, Opera */
+            -webkit-user-drag: none;   /* Safari và các trình duyệt WebKit khác */
+            pointer-events: none;      /* Vô hiệu hóa các sự kiện tương tác với hình ảnh */
+        }
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(9 9 11);
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        .spinner {
+            --size: 70px;
+            --first-block-clr: #005bba;
+            --second-block-clr: #8f8f8f;
+            --clr: #111;
+            width: 300px;
+            height: 300px;
+            position: relative;
+        }
+
+        .spinner::after,.spinner::before {
+            box-sizing: border-box;
+            position: absolute;
+            content: "";
+            width: var(--size);
+            height: var(--size);
+            top: 50%;
+            animation: up 2.4s cubic-bezier(0, 0, 0.24, 1.21) infinite;
+            left: 50%;
+            background: var(--first-block-clr);
+        }
+
+        .spinner::after {
+            background: var(--second-block-clr);
+            top: calc(50% - var(--size));
+            left: calc(50% - var(--size));
+            animation: down 2.4s cubic-bezier(0, 0, 0.24, 1.21) infinite;
+        }
+
+        @keyframes down {
+            0%, 100% {
+                transform: none;
+            }
+
+            25% {
+                transform: translateX(100%);
+            }
+
+            50% {
+                transform: translateX(100%) translateY(100%);
+            }
+
+            75% {
+                transform: translateY(100%);
+            }
+        }
+
+        @keyframes up {
+            0%, 100% {
+                transform: none;
+            }
+
+            25% {
+                transform: translateX(-100%);
+            }
+
+            50% {
+                transform: translateX(-100%) translateY(-100%);
+            }
+
+            75% {
+                transform: translateY(-100%);
+            }
+        }
+
+        .container {
+            margin: 10px auto 50px;
+            padding: 0 10px;
+            width: 100%;
+            max-width: 500px;
+            text-align: center;
+        }
+
+        .progress {
+            padding: 6px;
+            background: rgba(0, 0, 0, 0.25);
+            border-radius: 6px;
+            box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+        }
+
+        .progress-bar {
+            height: 18px;
+            background-color: #ee303c;
+            border-radius: 4px;
+            transition: 0.4s linear;
+            transition-property: width, background-color;
+        }
+
+        .progress-striped .progress-bar {
+            --odd-stripe-color: rgba(15, 255, 0, 0.1);
+            --even-stripe-color: rgba(107, 225, 0, 0.1);
+
+            background-color: var(--odd-stripe-color);
+            width: 100%;
+            background-image: linear-gradient(45deg, var(--even-stripe-color) 25%, transparent 25%, transparent 50%, var(--odd-stripe-color) 50%, var(--even-stripe-color) 75%, transparent 75%, transparent);
+            animation: progressAnimationStrike 6s;
+        }
+
+        @keyframes progressAnimationStrike {
+            from {
+                width: 0;
+            }
+            to {
+                width: 100%;
+            }
+        }
+
+        .label {
+            color: #fff;
+            font-weight: normal;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        .flex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .flex-col {
+            flex-direction: column;
+        }
+
+        .flex-row {
+            flex-direction: row;
+        }
+
+        .flex-wrap {
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+<!--  <div class="loader-container">-->
+<div>
+    <img src="logo.png" alt="logo">
+</div>
+<div class="flex flex-col " style="width: 100%">
+    <div>
+        <h2 class="label">
+            Vui lòng đợi trong giây lát, ứng dụng đang tải dữ liệu
+        </h2>
+    </div>
+    <div class="container">
+        <div class="progress progress-striped">
+            <div class="progress-bar">
+            </div>
+        </div>
+    </div>
+</div>
+<!--  </div>-->
+
+<script>
+    // const loader = document.getElementById('loader');
+    // const speedSlider = document.getElementById('speed-slider');
+    // let ws;
+    //
+    // function connectWebSocket() {
+    //   // Replace 'ws://your-websocket-server' with your actual WebSocket server address
+    //   ws = new WebSocket('ws://your-websocket-server');
+    //
+    //   ws.onopen = function() {
+    //     console.log('WebSocket connected');
+    //   };
+    //
+    //   ws.onmessage = function(event) {
+    //     const progress = JSON.parse(event.data).progress;
+    //     speedSlider.value = progress;
+    //     updateLoaderSpeed(progress);
+    //   };
+    //
+    //   ws.onclose = function() {
+    //     console.log('WebSocket disconnected. Reconnecting...');
+    //     setTimeout(connectWebSocket, 3000);
+    //   };
+    //
+    //   ws.onerror = function(error) {
+    //     console.error('WebSocket error:', error);
+    //   };
+    // }
+    //
+    // function updateLoaderSpeed(speed) {
+    //   loader.style.animationDuration = `${speed}s`;
+    // }
+    //
+    // speedSlider.addEventListener('input', function() {
+    //   const speed = this.value;
+    //   updateLoaderSpeed(speed);
+    //
+    //   // Send the new speed value to the server
+    //   if (ws && ws.readyState === WebSocket.OPEN) {
+    //     ws.send(JSON.stringify({ speed: speed }));
+    //   }
+    // });
+    //
+    // // Initial connection
+    // connectWebSocket();
+</script>
+</body>
+</html>

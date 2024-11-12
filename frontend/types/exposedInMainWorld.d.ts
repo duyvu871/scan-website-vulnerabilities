@@ -1,0 +1,7 @@
+interface Window {
+    readonly electron: { os: { platform: NodeJS.Platform; arch: string; release: string; type: string; userInfo: import("os").UserInfo<string>; }; };
+    readonly ipcRenderer: { sendMessage(channel: import("F:/CODE/web-vulnerability-scanner/build/layers/preload/index").Channels, ...args: unknown[]): void; on(channel: import("F:/CODE/web-vulnerability-scanner/build/layers/preload/index").Channels, func: (...args: unknown[]) => void): () => void; once(channel: import("F:/CODE/web-vulnerability-scanner/build/layers/preload/index").Channels, func: (...args: unknown[]) => void): void; };
+    readonly api: { databaseAccess: { list: () => Promise<import("F:/CODE/web-vulnerability-scanner/build/layers/database/index").HeadersScanCreationAttributes[]>; }; initScan?: ((...args: any[]) => Promise<any>) | undefined; getDNSInfo?: ((...args: any[]) => Promise<any>) | undefined; getScanStatus?: ((...args: any[]) => Promise<any>) | undefined; getTechnologies?: ((...args: any[]) => Promise<any>) | undefined; takeScreenshot?: ((...args: any[]) => Promise<any>) | undefined; checkHeaders?: ((...args: any[]) => Promise<any>) | undefined; getHeaders?: ((...args: any[]) => Promise<any>) | undefined; checkSSL?: ((...args: any[]) => Promise<any>) | undefined; };
+    readonly websocket: { socketInfo: () => Promise<{ port: number; }>; };
+    readonly license: { checkLicense(license: string, primaryKey: string): Promise<boolean>; startTrial(): Promise<boolean>; licenseInfo(): Promise<any>; };
+}
